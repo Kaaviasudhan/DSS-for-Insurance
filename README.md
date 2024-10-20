@@ -85,7 +85,7 @@ All Screenshots and images are added in the documents and presentation ppts.
 
 ## Project Video
 
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://github.com/Kaaviasudhan/DSS-for-Insurance-Sector/blob/main/Documents/LLM_Recording.mp4)
+[![Watch the video](https://github.com/Kaaviasudhan/DSS-for-Insurance-Sector/blob/main/Documents/LLM_Recording.mp4)
 
 Click the image above to watch the demo video or [download it here](https://github.com/Kaaviasudhan/DSS-for-Insurance-Sector/blob/main/Documents/LLM_Recording.mp4).
 
