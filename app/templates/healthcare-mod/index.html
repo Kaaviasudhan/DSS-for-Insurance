@@ -1,0 +1,61 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+<h1>Medical Cost Prediction</h1>
+<div class="form-container">
+  <h5 class="subheading">Predict the cost for your Medical Insurance!</h5>
+
+  <form action="{{ url_for('health.healthpredcost') }}" method="post">
+    <div class="form-group">
+      <label for="age"><b>Age</b></label>
+      <input type="number" id="age" name="age" min="10" max="100" placeholder="Age" required>
+    </div>
+
+    <div class="form-group">
+      <label for="Gender"><b>Gender</b></label>
+      <select id="Gender" name="Gender" required>
+        <option value="0">Male</option>
+        <option value="1">Female</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="bmi"><b>BMI</b></label>
+      <input type="number" id="bmi" name="bmi" min="0" max="100" placeholder="BMI" required>
+    </div>
+
+    <div class="form-group">
+      <label for="children"><b>Children</b></label>
+      <input type="number" id="children" name="children" min="0" max="10" placeholder="0 for None" required>
+    </div>
+
+    <div class="form-group">
+      <label for="smoker"><b>Do you Smoke?</b></label>
+      <select id="smoker" name="smoker" required>
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="region"><b>Which Region?</b></label>
+      <select id="region" name="region" required>
+        <option value="0">North West</option>
+        <option value="1">North East</option>
+        <option value="2">South East</option>
+        <option value="3">South West</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <button type="submit">Predict Probability</button>
+    </div>
+  </form>
+
+  {% if pred is not none %}
+  <div class="result">
+    <h4>Predicted Cost: {{ pred | round(3) }}</h4>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

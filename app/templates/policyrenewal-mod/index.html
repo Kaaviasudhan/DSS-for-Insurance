@@ -1,0 +1,92 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+    <h1>Policy Renewal Prediction</h1>
+
+    <div class="form-container">
+        <form method="post">
+            <div class="form-group">
+                <label for="Policy_Name">Policy Name:</label>
+                <select name="Policy_Name" id="Policy_Name" required>
+                    <option value="">Select Policy Name</option>
+                    <option value="Jeevan Tarun">Jeevan Tarun</option>
+                    <option value="Jeevan Anand">Jeevan Anand</option>
+                    <option value="Jeevan Labh">Jeevan Labh</option>
+                    <option value="Jeevan Lakshya">Jeevan Lakshya</option>
+                    <option value="Jeevan Amar">Jeevan Amar</option>
+                    <option value="Jeevan Umang">Jeevan Umang</option>
+                    <option value="Jeevan Shanti">Jeevan Shanti</option>
+                    <option value="Jeevan Arogya">Jeevan Arogya</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Policy_Type">Policy Type:</label>
+                <select name="Policy_Type" id="Policy_Type" required>
+                    <option value="">Select Policy Type</option>
+                    <option value="Motor">Motor</option>
+                    <option value="Personal Accident">Personal Accident</option>
+                    <option value="Health">Health</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Life">Life</option>
+                    <option value="Agricultural">Agricultural</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Home">Home</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Gender">Gender:</label>
+                <select name="Gender" id="Gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Region">Region:</label>
+                <select name="Region" id="Region" required>
+                    <option value="">Select Region</option>
+                    <option value="North">North</option>
+                    <option value="South">South</option>
+                    <option value="East">East</option>
+                    <option value="West">West</option>
+                    <option value="Central">Central</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Occupation">Occupation:</label>
+                <select name="Occupation" id="Occupation" required>
+                    <option value="">Select Occupation</option>
+                    <option value="Salaried">Salaried</option>
+                    <option value="Self-employed">Self-employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Retired">Retired</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Marital_Status">Marital Status:</label>
+                <select name="Marital_Status" id="Marital_Status" required>
+                    <option value="">Select Marital Status</option>
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Widowed">Widowed</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="Policy_Start_Date">Policy Start Date:</label>
+                <input type="date" name="Policy_Start_Date" id="Policy_Start_Date" required>
+            </div>
+
+            <button type="submit" class="button">Predict</button>
+        </form>
+    </div>
+{% endblock %}

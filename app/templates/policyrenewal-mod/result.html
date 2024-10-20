@@ -1,0 +1,21 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+
+    <h1>Policy Renewal Prediction Results</h1>
+    
+    <div class="result">
+        <p><strong>Random Forest Prediction:</strong> {{ 'Yes' if rf_prediction == 1 else 'No' }}</p>
+        <!-- <p><strong>Logistic Regression Prediction:</strong> {{ 'Yes' if lr_prediction == 1 else 'No' }}</p>
+        <p><strong>SVC Prediction:</strong> {{ 'Yes' if svc_prediction == 1 else 'No' }}</p> -->
+    </div>
+    
+    <h2>Policy Type-wise Renewal Rates</h2>
+    <div class="chart">
+        <img src="{{ url_for('static', filename='result_img/renewal_chart.png') }}" alt="Renewal Rate Chart">
+    </div>
+    
+    <p class="note">Note: This chart shows the renewal rates for different policy types based on the predictions and actual data.</p>
+    <a href="/" class="button">Go Back</a>
+
+{% endblock %}

@@ -1,0 +1,221 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+
+<!-- edastyles.css -->
+<style>
+
+/* edastyles.css */
+
+/* Basic body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styling */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Card container styling */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card .eda-container {
+    padding: 20px;
+}
+
+/* Card title */
+.card h4 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Card description text */
+.card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.5;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3498db;
+}
+
+/* Styling for mobile screens */
+@media (max-width: 768px) {
+    .card {
+        max-width: 90%;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+</style>
+
+<h2>Exploratory Data Analysis (EDA)</h2>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ policy_types_img }}" alt="Policy Types Distribution">
+    <div class="eda-container">
+        <h4><b>Distribution of Policy Types</b></h4> 
+        <p>{{ insights['policy_types'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ age_dist_img }}" alt="Age Distribution">
+    <div class="eda-container">
+        <h4><b>Age Distribution</b></h4> 
+        <p>{{ insights['age_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ gender_dist_img }}" alt="Gender Distribution">
+    <div class="eda-container">
+        <h4><b>Gender Distribution</b></h4> 
+        <p>{{ insights['gender_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ region_dist_img }}" alt="Region Distribution">
+    <div class="eda-container">
+        <h4><b>Region Distribution</b></h4> 
+        <p>{{ insights['region_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ occupation_dist_img }}" alt="Occupation Distribution">
+    <div class="eda-container">
+        <h4><b>Occupation Distribution</b></h4> 
+        <p>{{ insights['occupation_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ marital_status_dist_img }}" alt="Marital Status Distribution">
+    <div class="eda-container">
+        <h4><b>Marital Status Distribution</b></h4> 
+        <p>{{ insights['marital_status_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ annual_premium_dist_img }}" alt="Annual Premium Distribution">
+    <div class="eda-container">
+        <h4><b>Annual Premium Distribution</b></h4> 
+        <p>{{ insights['annual_premium_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ start_date_dist_img }}" alt="Policy Start Date Distribution">
+    <div class="eda-container">
+        <h4><b>Policy Start Date Distribution</b></h4> 
+        <p>{{ insights['start_date_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ tenure_dist_img }}" alt="Policy Tenure Distribution">
+    <div class="eda-container">
+        <h4><b>Policy Tenure Distribution</b></h4> 
+        <p>{{ insights['tenure_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ coverage_amount_dist_img }}" alt="Coverage Amount Distribution">
+    <div class="eda-container">
+        <h4><b>Coverage Amount Distribution</b></h4> 
+        <p>{{ insights['coverage_amount_dist'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ trend_analysis_img }}" alt="Policy Types Trend Analysis">
+    <div class="eda-container">
+        <h4><b>Trend Analysis of Policy Types Based on Year</b></h4> 
+        <p>{{ insights['trend_analysis'] }}</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ policy_gender_img }}" alt="Policy Type vs. Gender">
+    <div class="eda-container">
+        <h4><b>Policy Type vs. Gender</b></h4> 
+        <p>Analyzing the distribution of policy types across different genders can provide insights into gender-specific preferences and marketing strategies.</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ policy_region_img }}" alt="Policy Type vs. Region">
+    <div class="eda-container">
+        <h4><b>Policy Type vs. Region</b></h4> 
+        <p>Examining how policy types are distributed across different regions helps understand regional preferences and tailor regional marketing efforts.</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ policy_occupation_img }}" alt="Policy Type vs. Occupation">
+    <div class="eda-container">
+        <h4><b>Policy Type vs. Occupation</b></h4> 
+        <p>Understanding the relationship between policy types and occupations can reveal which professions are more likely to purchase certain policies.</p> 
+    </div>
+</div>
+
+<div class="card">
+    <img src="data:image/png;base64,{{ policy_marital_status_img }}" alt="Policy Type vs. Marital Status">
+    <div class="eda-container">
+        <h4><b>Policy Type vs. Marital Status</b></h4> 
+        <p>Analyzing policy types by marital status helps in understanding the insurance needs of different marital statuses and can guide product offerings.</p> 
+    </div>
+</div>
+
+<!-- Add more cards as needed -->
+{% endblock %}

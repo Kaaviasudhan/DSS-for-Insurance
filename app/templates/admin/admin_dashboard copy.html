@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header h2 {
+            margin: 0;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .stat {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: calc(33.33% - 20px);
+            margin: 10px;
+        }
+
+        .stat i {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .stat span {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0044cc;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e2e2e2;
+        }
+
+        a {
+            color: #0044cc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        form {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="email"],
+        input[type="password"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #0044cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0033aa;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        .logo i {
+            font-size: 24px;
+            color: #337ab7;
+        }
+
+        .user-info {
+            text-align: right;
+            margin: 10px;
+        }
+
+        .user-info span {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-user-circle" style="font-size: 24px; color: #337ab7;"></i>
+            </div>
+            <div class="user-info" style="text-align: right; margin: 10px;">
+                {% if session.email %}
+                    <span>User: {{ session.email }} | Role: {{ session.role }}</span>
+                {% else %}
+                    <span>Please log in</span>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <h2>Admin Dashboard</h2>
+            <a href="{{ url_for('main.logout') }}" class="btn btn-primary">Logout</a>
+        </div>
+        <div class="stats">
+            <div class="stat">
+                <i class="fas fa-users"></i>
+                <span>10</span>
+                <p>Registered Users</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-lock"></i>
+                <span>5</span>
+                <p>Admins</p>
+            </div>
+            <div class="stat">
+                <i class="fas fa-chart-line"></i>
+                <span>20%</span>
+                <p>Monthly Growth</p>
+            </div>
+        </div>
+        <!-- List of users -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for user in users %}
+                <tr>
+                    <td>{{ user.email }}</td>
+                    <td>{{ user.role }}</td>
+                    <td><a href="{{ url_for('main.delete_user', user_id=user._id) }}">Delete</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        
+
+        <!-- Create User Form -->
+        <form action="{{ url_for('main.create_user') }}" method="POST">
+
+            <center><h3>Create New User</h3></center>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required><br>
+            
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" required><br>
+            
+            <label for="role">Role:</label><br>
+            <select name="role">
+                <option value="user">User</option>
+                <option value="manager">Manager</option>
+                <option value="admin">Admin</option>
+            </select><br><br>
+            
+            <input type="submit" value="Create User">
+        </form>
+    </div>
+</body>
+</html>

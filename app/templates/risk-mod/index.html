@@ -1,0 +1,123 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+
+    <style>
+
+        /* Form Container Styling */
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Label Styling */
+        form label {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #2c3e50;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        /* Input Field Styling */
+        form input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #fff;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        /* Input Focus Effect */
+        form input[type="number"]:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        /* Button Styling */
+        form button[type="submit"] {
+            background-color: #2980b9;
+            color: #fff;
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+
+        /* Button Hover Effect */
+        form button[type="submit"]:hover {
+            background-color: #3498db;
+        }
+
+        /* Adjustments for Mobile Screens */
+        @media (max-width: 768px) {
+            form {
+                padding: 15px;
+            }
+
+            form label {
+                font-size: 1rem;
+            }
+
+            form button[type="submit"] {
+                font-size: 1rem;
+                padding: 10px;
+            }
+        }
+
+
+    </style>
+
+        <h2>Predict Risk Score</h2>
+        <form method="POST" action="{{ url_for('risk.riskpredt') }}">
+            <label for="Customer_Age">Customer Age:</label>
+            <input type="number" id="Customer_Age" name="Customer_Age" required><br><br>
+
+            <label for="Annual_Premium">Annual Premium:</label>
+            <input type="number" id="Annual_Premium" name="Annual_Premium" step="0.01" required><br><br>
+
+            <label for="Is_High_Value_Customer">Is High Value Customer (0 or 1):</label>
+            <input type="number" id="Is_High_Value_Customer" name="Is_High_Value_Customer" min="0" max="1" required><br><br>
+
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction is not none %}
+        <div class="result">
+            <h3>Predicted Risk Score: {{ prediction }}</h3>
+            <!-- Business Interpretation and Next Steps -->
+            
+            <div class="interpretation">
+                <h4>Business Interpretation:</h4>
+                <ul>
+                    <li><strong>Understanding the Risk:</strong> If the predicted risk score is high, it indicates a higher risk for the company. Consider offering tailored insurance plans with higher premiums or specific coverage options.</li>
+                    <li><strong>Targeted Customer Engagement:</strong> Engage customers with moderate to high risk scores proactively through personalized consultations or educational resources.</li>
+                    <li><strong>Fraud Detection and Prevention:</strong> Investigate consistently high-risk profiles to prevent potential fraud and integrate with fraud detection mechanisms.</li>
+                    <li><strong>Policy Adjustments:</strong> Adjust insurance policies or create new products catering to different risk levels based on predicted risk scores.</li>
+                    <li><strong>Resource Allocation:</strong> Allocate resources efficiently to manage high-risk customers identified by the model.</li>
+                    <li><strong>Retention Strategies:</strong> Implement retention strategies like discounts or loyalty programs for valuable high-risk customers to maintain relationships while managing risk.</li>
+                </ul>
+
+                <h4>Next Steps:</h4>
+                <ul>
+                    <li>Continuously evaluate the model's performance using real-world data and update the model as needed.</li>
+                    <li>Run different scenarios by changing input features to see how the predicted risk score changes, aiding strategic planning.</li>
+                    <li>Integrate these predictions into business processes like underwriting, customer service, and claims processing for data-driven decision-making.</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        {% endif %}
+    </div>
+{% endblock %}

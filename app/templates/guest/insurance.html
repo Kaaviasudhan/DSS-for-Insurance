@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Insurance | Insurancy</title>
+	<meta name="description" content="Insurancy is sharp Insurance agency website template based on HTML CSS and JavaScript specially designed for insurance company, insurance agency and startup agency.">
+    <meta name="keywords" content="insurance broker website template, website template for insurance company, insurance website templates free download, insurance company website template, life insurance website template, insurance agency website template, auto insurance website template, insurance agency, html5 website template, insurance website examples, car insurance website template, insurance responsive website template free download">
+    <meta name="author" content="atulcodex - Atul Prajapati | Web Developer">
+	
+	<meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="atulcodex - Atul Prajapati | Freelance web developer">
+
+	<!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo-tk.png') }}">
+
+	<!-- External CSS link -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/insurance.css') }}">
+
+	
+	<!-- Ionic icons CDN -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<!-- Jquery CDN link -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+	<!-- Scroll to top starts -->
+	<button id="topBtn">
+	  	<ion-icon name="arrow-up-outline"></ion-icon>
+	</button>
+	<!-- Scroll to top ends -->
+
+	<!-- Navigation starts -->
+	<nav>
+		<div class="menu-container nav-wrapper">
+			<div class="brand">
+				<a href="index.html">
+					<img src="{{ url_for('static', filename='img/logo-tk.png') }}" width="100px" alt="insurancy-logo" border="0">
+				</a>
+			</div>
+
+			<div class="hamberger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<ul class="nav-list">
+				<li class="active"><a href="{{ url_for('main.index')}}">Home</a></li>
+                <li><a href="{{ url_for('main.about') }}">About</a></li>
+                <li><a href="{{ url_for('main.insurance')}}">Insurance</a></li>
+				<li><a href="{{ url_for('main.newsinsurance')}}">News</a></li>
+				<li><a href="{{ url_for('main.contact')}}">Contacts</a></li>
+                <!-- Add this somewhere in your index.html or navigation bar -->
+                <li><a href="{{ url_for('main.login') }}">Login</a></li>
+
+				<li>
+					<button class="btn btn-blue">
+						<a href="tel:9876654321">+91 8667736358</a>
+					</button>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+	<!-------------------- Breadcrumb section ------------------->
+	<section class="breadcrumbs">
+		<div class="breadcrumb-container">
+			<h2 class="hero-heading white">
+				Insurance Services
+			</h2>
+		</div>
+	</section>
+	<!-------------------- Breadcrumb section ------------------->
+
+
+	<!-------------------- Future Shape Section ----------------->
+<section class="shape">
+    <div class="container">
+        <h4 class="sub-heading">We shape the future</h4>
+        <h2 class="heading">
+            How we can help you
+        </h2>
+
+        <div class="services">
+            <div class="service-card">
+                <div class="service-img card-home"></div>
+
+                <div class="service-details">
+                    <h2 class="service-name">Home Insurance</h2>
+                    <p class="para-line">
+                        Protect your home with comprehensive coverage designed to safeguard your property and assets against unexpected events.
+                    </p>
+                    <button class="btn btn-yellow">
+                        <a href="#">More Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img card-auto"></div>
+
+                <div class="service-details">
+                    <h2 class="service-name">Auto Insurance</h2>
+                    <p class="para-line">
+                        Drive with peace of mind by choosing reliable auto insurance that covers your vehicle and ensures your safety on the road.
+                    </p>
+                    <button class="btn btn-yellow">
+                        <a href="#">More Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img card-vacation"></div>
+
+                <div class="service-details">
+                    <h2 class="service-name">Travel Insurance</h2>
+                    <p class="para-line">
+                        Enjoy your travels knowing you’re covered for any unforeseen circumstances, from trip cancellations to medical emergencies.
+                    </p>
+                    <button class="btn btn-yellow">
+                        <a href="#">More Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img card-belonging"></div>
+
+                <div class="service-details">
+                    <h2 class="service-name">Personal Belongings Insurance</h2>
+                    <p class="para-line">
+                        Ensure that your valuable possessions are protected, no matter where you are, with flexible coverage options tailored  needs.
+                    </p>
+                    <button class="btn btn-yellow">
+                        <a href="#">More Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img card-childcare"></div>
+
+                <div class="service-details">
+                    <h2 class="service-name">ChildCare Insurance</h2>
+                    <p class="para-line">
+                        Secure the future of your children with comprehensive childcare insurance that provides peace of mind and financial protection.
+                    </p>
+                    <button class="btn btn-yellow">
+                        <a href="#">More Details</a>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img card-health"></div>
+
+                <div class="service-details">
+                    <h2 class="service-name">Health Insurance</h2>
+                    <p class="para-line">
+                        Invest in your well-being with robust health insurance plans that cater to your medical needs and keep you covered when it matters most.
+                    </p>
+                    <button class="btn btn-yellow">
+                        <a href="#">More Details</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------------- Future Shape Section ----------------->
+
+
+
+
+<!-------------------- FAQ Section -------------------------->
+<section class="faqs">
+    <div class="container">
+        <h4 class="sub-heading white">Got Questions?</h4>
+        <h2 class="heading white">
+            Frequently Asked Questions
+        </h2>
+
+        <div class="let-them-ask">
+            <div class="row faq-row">
+                <div class="col">
+                    <div class="faq">
+                        <div class="question">
+                            <h3>1. How old do I have to be to purchase insurance?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                You must be at least 18 years old to purchase most insurance policies. However, some plans, like life or health insurance, can be acquired by a parent or guardian for minors.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>2. What is ChildCare Insurance?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                ChildCare Insurance provides financial protection for expenses related to raising a child, including medical care and education, ensuring your child's future is secured.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>3. Do you accept credit card payments for insurance premiums?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                Yes, we accept all major credit cards for insurance premium payments. We aim to make your payment experience seamless and convenient.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="faq">
+                        <div class="question">
+                            <h3>4. How do insurance plans work?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                Insurance plans provide financial protection by covering specific risks. You pay regular premiums, and in return, the insurance company compensates you in the event of covered losses.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>5. Who is eligible for the Future Insurance Plan?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                The Future Insurance Plan is available to individuals aged 18-65, and it offers flexible terms to suit various life stages and financial goals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>6. Why is it important to have insurance?</h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p class="para-line white">
+                                Insurance protects you from unexpected financial burdens. It offers peace of mind by covering risks related to health, life, property, and more, ensuring you and your loved ones are financially secure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------------- FAQ Section -------------------------->
+
+
+
+<!-------------------- Additional Services ---------------->
+<section class="additional">
+    <div class="container">
+        <div class="row additional-row">
+            <div class="col additional-service">
+                <h4 class="sub-heading">We shape your future</h4>
+                <h2 class="heading">
+                    Our Additional Services
+                </h2>
+                <p class="para-line">
+                    At TK Insurance, we offer a range of comprehensive services that go beyond standard policies, ensuring you and your loved ones are well-protected at every stage of life.
+                </p>
+            </div>
+            <div class="col additional-service">
+                <img src="{{ url_for('static', filename='img/additional-service-1.png')}}" title="Insurance Consultancy" alt="Insurance Consultancy" class="addi-service-img">
+                <h4 class="addi-ser-heading">Insurance Consultancy</h4>
+                <hr>
+                <p class="para-line">
+                    Our expert consultants guide you through selecting the right insurance plans tailored to your personal or business needs. We ensure you make informed decisions for a secure future.
+                </p>
+            </div>
+            <div class="col additional-service">
+                <img src="{{ url_for('static', filename='img/additional-service-2.png')}}" title="Future Insurance for Kids" alt="Future Insurance for Kids" class="addi-service-img">
+                <h4 class="addi-ser-heading">Future Insurance for Kids</h4>
+                <hr>
+                <p class="para-line">
+                    Protect your children's future with our specialized plans. From education to health coverage, we provide options that ensure their well-being and growth.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------------- Additional Services ---------------->
+
+
+
+	<!-- ---------------------- Footer ------------------ -->
+	<footer>
+		<div class="footer-container">
+			<p class="para-line white">Copyright © 2024</p>
+		</div>
+	</footer>
+	<!-- ----------------------- Footer ------------------- -->
+
+
+	<!-------------- Importing JS file -------------->
+	<script src="js/script.js"></script>
+
+
+	<script>
+		// FAQ script
+		const faqs = document.querySelectorAll(".faq");
+
+		faqs.forEach(faq => {
+		  faq.addEventListener("click", () => {
+		    faq.classList.toggle("active");
+		  })
+		})
+	</script>
+
+	<!------------------------ Scroll to top button -------------------->
+	<script>
+		$(document).ready(function(){
+			$(window).scroll(function(){
+			if($(this).scrollTop() > 40)
+			{
+				$('#topBtn').fadeIn();
+			}
+			else
+			{
+				$('#topBtn').fadeOut();
+			}
+			});
+
+			$("#topBtn").click(function(){
+				$('html, body').animate({scrollTop: 0},800);
+			});             
+		});
+	</script>
+</body>
+</html>

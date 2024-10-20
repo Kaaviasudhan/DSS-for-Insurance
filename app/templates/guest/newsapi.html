@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance News</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+  <section class="news">
+    <div class="container">
+      <h2 class="heading">News</h2>
+      <div class="news-catalogue" id="news-catalogue"></div>
+    </div>
+  </section>
+
+  <script>
+
+    // Sample JSON data (this can be fetched from an external file if needed)
+const newsData = [
+  {
+    "title": "IRDAI Tightens Norms for Insurance Agents and Brokers",
+    "description": "Aimed at improving transparency and consumer protection, the Insurance Regulatory and Development Authority of India (IRDAI) has introduced stricter guidelines for insurance agents and brokers.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-1.png"
+  },
+  {
+    "title": "Surge in Cyber Insurance Claims Amidst Rising Cyber Threats",
+    "description": "With the increasing number of cyberattacks in India, there has been a significant rise in cyber insurance claims. Insurance companies are developing new products to cater to this growing demand.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-2.png"
+  },
+  {
+    "title": "Government Plans to Expand Insurance Penetration in Rural Areas",
+    "description": "The Indian government is focusing on increasing insurance penetration in rural areas through various initiatives, including financial literacy programs and affordable insurance products.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-4.png"
+  },
+  {
+    "title": "New Insurance Products Launched for Gig Workers",
+    "description": "Recognizing the growing gig economy, several insurance companies have introduced tailored insurance products to protect gig workers from various risks.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-3.png"
+  },
+  {
+    "title": "Insurance Companies Invest Heavily in Technology for Better Customer Experience",
+    "description": "The insurance industry is undergoing a digital transformation with increased investments in technology to enhance customer experience, streamline processes, and detect fraud.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-1.png"
+  },
+  {
+    "title": "Increased Focus on Health Insurance Amidst Rising Healthcare Costs",
+    "description": "With soaring healthcare expenses, there's a growing emphasis on health insurance plans. New products and innovations are being introduced to cater to the evolving needs of consumers.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-2.png"
+  },
+  {
+    "title": "Insurance Companies Partner with Fintech Firms for Digital Innovation",
+    "description": "Collaborations between insurance companies and fintech startups are on the rise to develop innovative insurance products and services, leveraging technology for better customer engagement.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-3.png"
+  },
+  {
+    "title": "Concerns Over Data Privacy in the Insurance Sector",
+    "description": "As digitalization progresses, there's increasing concern about data privacy and security in the insurance industry. Regulations and measures are being implemented to protect customer data.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-4.png"
+  },
+  {
+    "title": "Government's Push for Insurance Awareness",
+    "description": "The Indian government is intensifying efforts to create awareness about the importance of insurance among the masses, especially in rural and underserved areas.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-1.png"
+  },
+  {
+    "title": "Challenges in Claim Settlements",
+    "description": "Despite improvements, challenges related to insurance claim settlements persist. Efforts are being made to expedite the process and reduce disputes between insurers and policyholders.",
+    "author": "atulcodex",
+    "link": "news-view.html",
+    "image": "img/news-1.png"
+  }
+];
+
+// Function to dynamically generate news cards
+function displayNews(newsArray) {
+  const newsCatalogue = document.getElementById('news-catalogue');
+  newsArray.forEach(news => {
+    const newsCard = `
+      <div class="news-card">
+        <a href="${news.link}">
+          <img src="${news.image}" alt="Post featured image" title="${news.title}" class="featured-image">
+          <h2 class="heading">${news.title}</h2>
+        </a>
+        <p class="author">by <a href="${news.author_link}">${news.author}</a></p>
+        <p class="para-line">${news.description} <a href="${news.link}">Read More</a></p>
+      </div>
+    `;
+    newsCatalogue.innerHTML += newsCard;
+  });
+}
+
+// Call the function to display news
+displayNews(newsData);
+
+
+  </script>
+</body>
+</html>

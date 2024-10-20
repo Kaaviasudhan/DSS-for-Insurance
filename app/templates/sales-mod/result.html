@@ -1,0 +1,63 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <h1>Forecast Result for {{ policy_type }} ({{ duration_years }} Years)</h1>
+        <canvas id="forecastChart"></canvas>  
+
+        <script>
+            const ctx = document.getElementById('forecastChart').getContext('2d');
+            const forecastData = {{ forecast_data|tojson }};
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: forecastData.dates,
+                    datasets: [
+                        {
+                            label: 'Forecasted Sales',
+                            data: forecastData.values,
+                            borderColor: 'orange',
+                            backgroundColor: 'rgba(255, 165, 0, 0.2)',
+                            fill: true
+                        },
+                        {
+                            label: 'Moving Average',
+                            data: forecastData.moving_avg_values,
+                            borderColor: 'blue',
+                            backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                            fill: true
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Date'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Sales'
+                            }
+                        }
+                    }
+                }
+            });
+        </script>
+
+        <!-- Dynamic Interpretation Section -->
+        <div class="interpretation">
+            <h2>Business Insights</h2>
+            <p>{{ interpretation }}</p>
+        </div>
+
+        <a href="/">Back</a>
+    <!-- </div> -->
+{% endblock %}

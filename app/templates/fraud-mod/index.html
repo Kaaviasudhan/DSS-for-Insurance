@@ -1,0 +1,118 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+
+    <style>
+
+    .form-container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 600px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-container label {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #2c3e50;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-container input[type="number"], 
+    .form-container select {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .form-container button[type="submit"] {
+        background-color: #2980b9;
+        color: #fff;
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+
+    </style>
+
+    <h1>Fraud Detection Prediction</h1>
+    
+    <form action="{{ url_for('fraud.fraudpredt') }}" method="POST" class="form-container">
+        <label for="policy_type">Policy Type:</label>
+        <select id="policy_type" name="policy_type" required>
+            <option value="" disabled selected>Select Policy Type</option>
+            <option value="0">Agricultural</option>
+            <option value="1">Commercial</option>
+            <option value="2">Health</option>
+            <option value="3">Home</option>
+            <option value="4">Life</option>
+            <option value="5">Motor</option>
+            <option value="6">Personal Accident</option>
+            <option value="7">Travel</option>
+        </select>
+
+        <label for="annual_premium">Annual Premium:</label>
+        <input type="number" step="0.01" id="annual_premium" name="annual_premium" required>
+
+        <label for="claims_made">Claims Made:</label>
+        <select id="claims_made" name="claims_made" required>
+            <option value="" disabled selected>Select Claims Made</option>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </select>
+
+        <label for="total_claim_amount">Total Claim Amount:</label>
+        <input type="number" step="0.01" id="total_claim_amount" name="total_claim_amount" required>
+
+        <label for="last_claim_amount">Last Claim Amount:</label>
+        <input type="number" step="0.01" id="last_claim_amount" name="last_claim_amount" required>
+
+        <label for="risk_score">Risk Score:</label>
+        <input type="number" step="0.01" id="risk_score" name="risk_score" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if predicted_label %}
+        <div class="result">
+            <h2>Prediction Result: {{ predicted_label }}</h2>
+            <img src="{{ url_for('static', filename='prediction_plot.png') }}" alt="Prediction Probability Plot">
+
+            {% if predicted_label == 'Fraud' %}
+                <div class="fraud-tips">
+                    <h3>Key Points to Reduce Fraud:</h3>
+                    <ul>
+                        <li>Verify the accuracy of reported claim amounts.</li>
+                        <li>Implement stricter checks for high-risk policies.</li>
+                        <li>Regularly audit claims and policyholder information.</li>
+                        <li>Enhance training for claim adjusters to identify suspicious patterns.</li>
+                        <li>Utilize advanced fraud detection algorithms and tools.</li>
+                    </ul>
+                </div>
+            {% elif predicted_label == 'Non-Fraud' %}
+                <div class="improvement-tips">
+                    <h3>Suggestions for Improvement:</h3>
+                    <ul>
+                        <li>Continue monitoring claim patterns for any anomalies.</li>
+                        <li>Ensure that data inputs are accurate and up-to-date.</li>
+                        <li>Improve customer service to enhance policyholder satisfaction.</li>
+                        <li>Review and update risk assessment criteria periodically.</li>
+                        <li>Implement additional verification steps for high-value policies.</li>
+                    </ul>
+                </div>
+            {% endif %}
+        </div>
+    {% endif %}
+
+{% endblock %}

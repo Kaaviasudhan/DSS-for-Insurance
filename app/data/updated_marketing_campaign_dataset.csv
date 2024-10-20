@@ -1,0 +1,1001 @@
+CampaignID,StartDate,EndDate,Channel,TargetAudience,PolicyType,Budget,RevenueGenerated,GrowthRate,ROI,CustomerRetentionRate
+1,2024-04-12,2025-01-12,Agent,Seniors,Personal Accident Insurance,5327.76,60831.22,7.93,2.23,68.65
+2,2024-12-14,2024-12-09,TV,Adults,Life Insurance,32639.47,15674.63,10.17,0.83,67.34
+3,2024-09-27,2024-10-06,TV,Adults,Personal Accident Insurance,37184.17,36538.71,0.65,1.52,77.27
+4,2024-04-16,2024-06-17,Direct Mail,Teenagers,Motor Vehicle Insurance,34454.02,79255.09,10.1,0.32,92.7
+5,2024-03-12,2024-07-21,Direct Mail,Teenagers,Agricultural Insurance,8644.9,46519.89,19.74,1.89,93.72
+6,2024-07-07,2024-01-18,Broker,Teenagers,Agricultural Insurance,29784.33,64635.81,5.93,2.03,80.82
+7,2024-01-21,2024-10-11,Email,Seniors,Health Insurance,29335.26,66508.5,8.21,1.2,94.43
+8,2024-04-12,2024-06-14,Social Media,Adults,Health Insurance,43683.72,85156.73,13.9,2.87,60.22
+9,2024-05-01,2024-07-04,Social Media,Teenagers,Personal Accident Insurance,20198.13,35867.67,16.39,2.64,61.41
+10,2024-08-02,2024-01-26,Online Ads,Seniors,Motor Vehicle Insurance,19831.33,70293.08,8.64,2.15,96.47
+11,2024-11-26,2024-06-19,Agent,Seniors,Health Insurance,31689.3,96353.5,6.54,2.17,91.01
+12,2024-03-28,2024-05-13,Email,Seniors,Agricultural Insurance,32387.49,74373.12,18.79,0.83,78.03
+13,2024-04-09,2024-04-20,TV,Teenagers,Commercial Insurance,24525.69,51537.7,13.7,2.0,90.14
+14,2024-12-25,2024-12-06,Phone,Teenagers,Life Insurance,23266.85,64918.16,2.82,0.67,98.23
+15,2024-05-31,2024-11-29,Radio,Adults,Life Insurance,25719.09,75269.88,1.84,0.52,90.88
+16,2024-05-10,2024-04-25,Broker,Adults,Motor Vehicle Insurance,43330.17,63166.2,9.93,3.0,93.69
+17,2024-05-29,2024-12-21,Agent,Teenagers,Personal Accident Insurance,24136.01,6584.2,4.79,1.9,90.42
+18,2024-11-04,2024-10-20,Agent,Seniors,Health Insurance,47116.73,23503.48,5.45,1.35,66.73
+19,2024-09-14,2024-10-04,Agent,Seniors,Commercial Insurance,26192.18,81994.48,17.61,0.94,93.34
+20,2024-12-09,2024-02-16,TV,Seniors,Life Insurance,47561.63,30901.81,2.25,1.85,67.8
+21,2024-10-20,2024-05-01,TV,Adults,Life Insurance,41975.93,74498.4,14.45,0.24,95.7
+22,2024-07-10,2024-04-29,Radio,Seniors,Home Insurance,19396.7,40351.42,5.79,0.37,78.35
+23,2024-10-03,2024-11-10,Email,Adults,Personal Accident Insurance,43454.79,54579.01,15.33,0.2,87.08
+24,2024-06-09,2024-04-07,Agent,Adults,Home Insurance,7283.04,11457.46,14.59,1.55,79.89
+25,2024-11-09,2024-11-25,Social Media,Seniors,Agricultural Insurance,46402.26,22216.43,0.64,1.84,63.76
+26,2024-01-22,2024-09-06,Direct Mail,Seniors,Life Insurance,32318.89,95933.71,10.43,0.28,71.63
+27,2024-09-09,2024-11-30,Social Media,Teenagers,Motor Vehicle Insurance,4610.76,89563.12,3.22,2.19,99.35
+28,2024-08-23,2024-05-30,Online Ads,Teenagers,Travel Insurance,32924.32,66966.14,17.39,0.77,98.43
+29,2024-12-10,2024-03-30,Social Media,Seniors,Travel Insurance,48763.89,48666.24,17.5,2.09,72.82
+30,2024-02-18,2024-02-12,Online Ads,Adults,Commercial Insurance,5350.43,69197.32,8.66,2.95,99.85
+31,2024-02-28,2024-01-17,Phone,Adults,Life Insurance,28625.01,63767.98,9.17,2.1,93.82
+32,2024-06-18,2024-11-05,Direct Mail,Adults,Life Insurance,37894.13,59012.46,6.41,2.66,84.44
+33,2024-07-06,2024-11-16,Social Media,Adults,Agricultural Insurance,40892.41,10621.82,14.47,2.85,61.6
+34,2024-09-27,2024-03-16,Phone,Adults,Life Insurance,21863.72,65116.25,7.49,1.51,96.06
+35,2024-07-08,2024-12-03,Broker,Teenagers,Motor Vehicle Insurance,11799.99,78047.4,5.72,2.14,82.3
+36,2024-06-23,2024-12-21,Email,Seniors,Home Insurance,4032.43,99437.76,8.93,2.57,94.74
+37,2024-02-20,2024-12-08,Phone,Teenagers,Life Insurance,29826.86,6052.46,2.28,1.13,93.38
+38,2024-12-29,2024-10-17,Email,Adults,Life Insurance,23739.73,74366.48,15.06,0.86,93.32
+39,2024-02-24,2025-01-12,Social Media,Adults,Agricultural Insurance,47539.73,59319.99,0.75,2.85,87.93
+40,2024-08-31,2024-09-04,Phone,Adults,Personal Accident Insurance,4909.04,46234.96,13.07,2.21,71.66
+41,2024-11-15,2024-10-19,Direct Mail,Adults,Health Insurance,34898.98,17119.17,4.07,0.74,73.45
+42,2024-05-10,2024-11-24,Social Media,Seniors,Personal Accident Insurance,3198.38,43863.09,5.03,1.4,72.34
+43,2024-11-02,2024-10-21,Agent,Adults,Agricultural Insurance,10228.84,38665.83,12.89,2.41,60.8
+44,2024-05-14,2024-11-10,TV,Seniors,Personal Accident Insurance,23771.79,33768.84,19.86,1.69,83.3
+45,2024-01-21,2024-08-24,Phone,Adults,Agricultural Insurance,23833.88,74433.56,15.67,1.98,87.95
+46,2024-11-24,2024-06-28,Direct Mail,Seniors,Motor Vehicle Insurance,34913.63,71568.92,4.9,2.29,94.15
+47,2024-06-15,2024-01-30,Broker,Teenagers,Commercial Insurance,45690.23,60956.91,3.93,1.9,65.61
+48,2024-09-30,2024-12-30,Agent,Adults,Life Insurance,32673.54,94173.16,17.39,1.67,81.77
+49,2024-03-29,2024-03-21,Broker,Seniors,Agricultural Insurance,47769.68,38236.17,9.16,2.27,60.32
+50,2024-11-11,2024-03-26,Social Media,Teenagers,Agricultural Insurance,44317.55,28161.18,3.17,2.21,63.8
+51,2024-01-14,2024-05-12,TV,Adults,Health Insurance,30055.99,67310.81,17.31,1.93,62.17
+52,2024-08-29,2024-04-14,Phone,Adults,Agricultural Insurance,42022.01,23887.34,16.41,1.14,89.02
+53,2024-09-21,2024-09-01,Phone,Adults,Travel Insurance,32843.73,34926.0,19.69,1.28,63.24
+54,2024-12-11,2024-03-11,Social Media,Seniors,Commercial Insurance,5770.78,26337.23,18.24,2.91,88.66
+55,2024-02-22,2024-04-21,Social Media,Seniors,Life Insurance,37547.11,11569.59,17.11,0.43,69.98
+56,2024-12-05,2024-11-04,TV,Teenagers,Life Insurance,6555.61,83612.38,1.53,0.88,95.11
+57,2024-04-01,2024-12-01,Direct Mail,Seniors,Health Insurance,30515.97,29181.35,2.54,1.53,92.53
+58,2024-09-20,2024-11-07,Direct Mail,Seniors,Motor Vehicle Insurance,35726.73,49937.61,11.6,2.53,98.31
+59,2024-02-04,2024-05-05,TV,Adults,Life Insurance,5193.33,9114.95,10.86,0.57,95.35
+60,2024-07-24,2024-02-06,Direct Mail,Adults,Travel Insurance,13078.14,71437.25,9.43,0.9,97.33
+61,2024-03-21,2024-10-28,Online Ads,Adults,Life Insurance,45952.27,36403.3,8.24,0.29,94.35
+62,2024-02-19,2024-07-24,Email,Adults,Travel Insurance,31583.1,75749.99,8.91,2.15,87.74
+63,2024-12-25,2024-05-25,TV,Adults,Commercial Insurance,13821.73,44178.29,11.6,0.79,66.81
+64,2024-01-02,2025-01-08,TV,Adults,Commercial Insurance,35152.63,23596.78,0.54,1.23,70.87
+65,2024-02-23,2024-01-30,Radio,Adults,Home Insurance,30645.27,53751.63,5.58,1.39,68.51
+66,2024-04-15,2024-03-30,Agent,Teenagers,Home Insurance,26075.63,17397.93,10.61,2.68,84.14
+67,2024-09-16,2024-06-06,Agent,Teenagers,Travel Insurance,48856.97,46851.22,14.58,1.29,80.14
+68,2024-11-05,2024-06-17,Online Ads,Teenagers,Motor Vehicle Insurance,34805.78,35144.02,3.9,0.52,94.68
+69,2024-07-09,2024-06-12,Social Media,Teenagers,Life Insurance,20021.17,91636.16,11.16,1.62,98.11
+70,2024-08-05,2024-08-18,Social Media,Adults,Agricultural Insurance,40403.52,10788.23,14.43,2.89,76.19
+71,2024-02-13,2024-11-27,Broker,Teenagers,Life Insurance,44460.0,70931.65,9.17,1.86,80.25
+72,2024-06-10,2024-04-14,Online Ads,Adults,Home Insurance,8010.59,22361.36,1.03,2.95,98.86
+73,2024-07-20,2024-04-25,TV,Teenagers,Personal Accident Insurance,11626.54,35309.28,9.26,2.54,71.05
+74,2024-09-26,2024-02-26,Online Ads,Seniors,Agricultural Insurance,12378.9,44473.84,6.28,0.2,91.7
+75,2024-12-16,2024-08-01,Online Ads,Teenagers,Travel Insurance,35178.17,91261.43,18.63,2.01,69.01
+76,2024-10-30,2024-05-25,Online Ads,Teenagers,Agricultural Insurance,30945.9,28044.94,2.93,0.93,87.26
+77,2024-09-27,2024-03-27,Agent,Adults,Personal Accident Insurance,31711.6,13674.34,13.22,1.72,70.14
+78,2024-08-02,2024-07-10,Online Ads,Teenagers,Life Insurance,47157.12,35275.51,1.53,0.91,95.35
+79,2024-09-08,2024-02-19,Email,Seniors,Life Insurance,39243.75,14944.22,9.2,1.11,82.46
+80,2024-07-08,2024-02-11,Social Media,Adults,Motor Vehicle Insurance,8140.97,17216.67,11.3,2.78,67.44
+81,2024-10-22,2024-05-19,Broker,Adults,Health Insurance,18680.34,59515.81,6.31,0.7,68.97
+82,2024-07-31,2024-07-01,Email,Teenagers,Agricultural Insurance,22898.9,10785.68,9.37,2.63,79.75
+83,2024-07-26,2024-11-06,Broker,Adults,Home Insurance,21006.16,7938.43,3.69,0.19,98.46
+84,2024-08-24,2024-08-19,Radio,Adults,Personal Accident Insurance,34126.81,72869.34,6.43,0.36,90.79
+85,2024-12-03,2024-07-01,Broker,Adults,Personal Accident Insurance,44810.87,39356.47,12.61,2.58,79.53
+86,2024-02-22,2024-02-28,Social Media,Adults,Personal Accident Insurance,16690.47,16910.66,6.39,1.93,73.51
+87,2024-10-06,2024-04-13,Social Media,Adults,Home Insurance,28490.1,29093.21,18.04,2.27,81.97
+88,2024-08-04,2024-10-30,Online Ads,Adults,Health Insurance,39891.65,65998.22,12.75,0.71,89.93
+89,2024-09-08,2024-10-09,Phone,Seniors,Life Insurance,21978.47,31175.97,9.05,1.66,91.36
+90,2024-07-06,2024-08-05,Radio,Teenagers,Motor Vehicle Insurance,10069.67,51979.51,1.26,2.24,72.98
+91,2024-02-10,2024-04-08,TV,Seniors,Motor Vehicle Insurance,24797.65,16561.05,10.24,1.92,88.85
+92,2024-06-05,2024-11-30,Direct Mail,Adults,Home Insurance,4650.68,60868.9,15.41,1.47,86.31
+93,2024-01-15,2024-02-07,Broker,Adults,Motor Vehicle Insurance,47234.41,35027.38,5.68,2.88,98.36
+94,2024-10-27,2024-01-14,Phone,Teenagers,Personal Accident Insurance,5591.42,64562.0,16.23,2.06,97.24
+95,2024-03-05,2024-05-26,Online Ads,Seniors,Commercial Insurance,23045.92,81797.51,5.41,2.73,91.58
+96,2024-12-10,2024-12-10,Agent,Teenagers,Health Insurance,27434.3,63106.41,16.56,2.22,88.94
+97,2024-11-22,2024-12-22,TV,Seniors,Life Insurance,49294.58,33096.02,2.16,2.23,70.96
+98,2024-01-09,2024-05-10,Phone,Adults,Commercial Insurance,9969.05,29295.65,17.39,0.33,93.84
+99,2024-12-09,2024-11-16,Agent,Teenagers,Health Insurance,7492.71,36104.99,10.23,1.14,77.1
+100,2024-05-08,2024-06-19,Radio,Teenagers,Travel Insurance,2417.9,20638.95,6.28,2.59,70.89
+101,2024-05-15,2024-11-03,Online Ads,Adults,Agricultural Insurance,9467.43,22211.33,5.67,0.77,75.37
+102,2024-03-03,2024-08-22,TV,Teenagers,Home Insurance,11949.1,80115.65,8.92,0.43,93.44
+103,2024-05-18,2025-01-07,TV,Seniors,Personal Accident Insurance,32267.89,41549.59,19.98,1.05,65.95
+104,2024-03-21,2024-08-08,TV,Seniors,Motor Vehicle Insurance,12545.93,46419.54,4.8,0.74,78.25
+105,2024-06-11,2024-07-11,Radio,Seniors,Travel Insurance,2985.0,61434.7,2.51,2.78,79.69
+106,2024-10-15,2024-01-29,Broker,Seniors,Motor Vehicle Insurance,41677.68,61017.08,11.91,2.62,61.47
+107,2024-09-17,2024-07-01,Radio,Adults,Commercial Insurance,19548.59,11400.8,10.03,1.55,67.83
+108,2024-08-18,2024-05-27,Direct Mail,Teenagers,Life Insurance,18977.44,83996.37,10.72,0.28,93.07
+109,2024-02-10,2024-09-21,Social Media,Seniors,Life Insurance,16518.99,21846.02,13.51,2.17,93.23
+110,2024-01-28,2024-06-25,Online Ads,Adults,Life Insurance,48817.92,73691.81,5.71,1.91,71.7
+111,2024-05-14,2024-03-16,Radio,Teenagers,Personal Accident Insurance,10165.54,78403.74,18.26,2.91,95.0
+112,2024-07-19,2024-11-27,Agent,Teenagers,Motor Vehicle Insurance,45115.43,72915.46,9.0,1.72,90.87
+113,2024-11-23,2024-12-14,Direct Mail,Adults,Travel Insurance,39286.56,60002.88,3.02,1.08,76.72
+114,2024-09-24,2024-06-29,Social Media,Adults,Life Insurance,5671.04,6387.85,14.97,1.61,89.94
+115,2024-02-02,2024-05-30,Broker,Seniors,Travel Insurance,49363.0,39235.67,13.04,2.94,98.45
+116,2024-02-17,2024-05-03,Agent,Teenagers,Motor Vehicle Insurance,15025.57,62459.75,6.66,2.12,78.36
+117,2024-03-02,2024-05-21,Online Ads,Teenagers,Personal Accident Insurance,6731.98,41807.87,12.62,2.05,69.54
+118,2024-08-03,2024-08-31,Agent,Adults,Commercial Insurance,41807.08,87030.59,4.79,0.8,97.67
+119,2024-10-19,2024-11-07,Social Media,Teenagers,Personal Accident Insurance,35920.43,34336.22,9.17,2.26,84.15
+120,2024-04-08,2024-10-10,Agent,Seniors,Travel Insurance,31626.5,32885.81,18.04,2.28,64.21
+121,2024-06-20,2024-10-29,Email,Teenagers,Personal Accident Insurance,9487.08,30269.78,3.1,1.02,82.91
+122,2024-12-25,2024-11-02,Phone,Adults,Personal Accident Insurance,24967.81,36614.18,8.04,1.5,80.02
+123,2024-08-01,2024-03-30,Broker,Adults,Commercial Insurance,39466.69,57953.47,16.51,0.95,94.22
+124,2024-02-04,2024-05-28,Social Media,Seniors,Motor Vehicle Insurance,16573.95,72166.45,19.41,0.85,81.23
+125,2024-08-14,2024-01-18,Agent,Seniors,Motor Vehicle Insurance,16961.11,67943.95,9.35,0.18,70.21
+126,2024-04-10,2024-09-11,Phone,Teenagers,Home Insurance,2150.76,81733.19,10.39,0.93,87.03
+127,2024-05-10,2024-12-04,Phone,Teenagers,Personal Accident Insurance,10363.68,89161.83,11.66,1.71,81.7
+128,2024-09-13,2024-12-28,Agent,Adults,Motor Vehicle Insurance,44019.47,82527.51,18.68,0.1,69.32
+129,2024-01-05,2024-02-19,Online Ads,Seniors,Motor Vehicle Insurance,23203.83,6799.81,17.24,0.92,82.95
+130,2024-08-05,2024-06-01,Email,Seniors,Health Insurance,49243.26,74912.21,3.83,2.66,92.86
+131,2024-09-11,2024-08-02,Radio,Seniors,Life Insurance,20993.98,24797.96,9.02,1.82,61.14
+132,2024-12-24,2024-02-14,Email,Teenagers,Home Insurance,36328.95,17628.16,9.55,1.86,85.23
+133,2024-10-09,2024-11-14,Agent,Seniors,Agricultural Insurance,15532.11,65656.43,15.89,1.27,73.98
+134,2024-07-25,2024-12-21,Broker,Adults,Home Insurance,19462.86,35375.6,12.26,2.06,71.71
+135,2024-01-15,2024-11-19,Radio,Adults,Home Insurance,11154.85,10426.13,13.26,0.65,75.7
+136,2024-12-11,2025-01-26,Social Media,Teenagers,Agricultural Insurance,18658.99,18074.82,19.96,2.47,73.68
+137,2024-02-11,2024-09-01,Email,Teenagers,Health Insurance,28267.4,5088.29,1.96,0.44,93.29
+138,2024-06-27,2024-06-16,Agent,Seniors,Personal Accident Insurance,49605.1,90806.24,4.85,2.0,70.99
+139,2024-03-03,2024-04-19,Email,Teenagers,Commercial Insurance,33881.68,7338.71,8.45,1.09,89.33
+140,2024-12-17,2024-08-26,Radio,Adults,Motor Vehicle Insurance,11563.81,24898.3,7.28,2.27,63.76
+141,2024-08-18,2024-05-07,Direct Mail,Seniors,Life Insurance,4158.15,44544.96,0.92,1.69,98.06
+142,2024-08-28,2024-05-04,Email,Adults,Travel Insurance,8065.11,38874.28,2.29,1.41,84.89
+143,2024-02-21,2024-12-09,Social Media,Seniors,Personal Accident Insurance,29002.65,91613.96,13.78,0.59,88.27
+144,2024-04-05,2024-07-11,Social Media,Teenagers,Agricultural Insurance,38727.7,8827.45,17.65,1.95,71.92
+145,2024-08-09,2025-01-14,TV,Seniors,Commercial Insurance,47140.12,53660.4,10.53,2.93,76.48
+146,2024-08-18,2024-12-18,Email,Seniors,Personal Accident Insurance,2759.51,69645.55,11.01,2.49,68.95
+147,2024-08-24,2024-05-29,Online Ads,Adults,Agricultural Insurance,27092.49,93511.31,5.47,0.27,97.3
+148,2024-05-22,2024-11-09,Phone,Adults,Motor Vehicle Insurance,24601.63,63935.27,15.47,1.19,79.52
+149,2024-06-19,2024-12-12,Phone,Seniors,Health Insurance,33490.64,81356.75,15.16,2.78,85.22
+150,2024-01-29,2024-05-24,Phone,Teenagers,Personal Accident Insurance,28859.79,12953.87,11.97,1.56,89.37
+151,2024-02-05,2024-04-26,Direct Mail,Teenagers,Agricultural Insurance,34977.88,41664.25,4.65,2.02,74.84
+152,2024-01-13,2024-04-25,TV,Adults,Motor Vehicle Insurance,33587.96,40524.98,2.39,2.75,88.8
+153,2024-06-08,2024-10-20,Direct Mail,Teenagers,Motor Vehicle Insurance,7616.56,89197.38,1.75,2.63,87.04
+154,2024-11-22,2024-03-01,Email,Adults,Health Insurance,40386.46,19380.26,12.06,1.56,88.23
+155,2024-07-05,2024-02-05,Email,Teenagers,Home Insurance,7915.16,19429.19,16.59,1.37,79.57
+156,2024-08-30,2024-10-27,Email,Seniors,Personal Accident Insurance,35529.47,36213.02,17.24,1.09,75.32
+157,2024-03-26,2024-11-04,Broker,Adults,Personal Accident Insurance,21974.98,10174.27,9.54,2.19,68.88
+158,2024-10-10,2024-08-17,Phone,Adults,Home Insurance,26664.84,22333.51,15.79,0.93,92.99
+159,2024-03-06,2024-10-22,Broker,Seniors,Life Insurance,45358.3,96694.92,18.96,0.82,84.33
+160,2024-06-18,2024-10-08,TV,Adults,Life Insurance,44714.42,45677.47,5.87,1.13,77.77
+161,2024-02-14,2024-11-18,Direct Mail,Teenagers,Home Insurance,41257.1,65041.82,8.26,0.61,97.76
+162,2024-03-02,2024-04-28,Phone,Teenagers,Commercial Insurance,26487.12,73980.57,18.66,2.12,61.91
+163,2024-05-13,2024-12-14,Broker,Adults,Travel Insurance,37339.51,39861.33,7.1,1.89,94.01
+164,2024-10-10,2024-05-09,Broker,Teenagers,Motor Vehicle Insurance,26619.06,18986.57,18.32,1.5,99.9
+165,2024-01-28,2024-07-15,Agent,Adults,Travel Insurance,43741.09,24625.2,19.63,1.23,95.48
+166,2024-04-17,2024-11-13,Broker,Seniors,Motor Vehicle Insurance,21333.24,34760.32,13.41,2.74,92.42
+167,2024-02-13,2024-01-14,Online Ads,Adults,Home Insurance,48571.3,65426.5,16.43,0.18,74.97
+168,2024-12-05,2024-12-03,Online Ads,Seniors,Life Insurance,46751.49,42836.65,15.12,2.33,69.25
+169,2024-10-12,2024-03-07,Direct Mail,Teenagers,Commercial Insurance,37596.93,5647.4,14.14,2.72,89.39
+170,2024-11-26,2024-06-20,Online Ads,Seniors,Life Insurance,15411.96,54723.68,6.49,1.39,72.18
+171,2024-05-07,2024-11-25,Direct Mail,Teenagers,Travel Insurance,8319.37,92543.77,1.61,1.7,67.04
+172,2024-12-13,2024-05-21,Direct Mail,Adults,Life Insurance,43025.77,82147.37,7.19,2.84,91.46
+173,2024-08-18,2024-07-26,TV,Teenagers,Home Insurance,9934.51,83395.08,13.51,0.72,72.5
+174,2024-07-08,2024-11-15,Agent,Adults,Commercial Insurance,43004.52,80530.51,2.5,1.61,96.58
+175,2024-08-12,2024-05-22,Email,Adults,Travel Insurance,25556.72,35754.43,0.73,1.48,93.63
+176,2024-10-09,2024-06-12,Social Media,Seniors,Commercial Insurance,21514.73,77693.41,3.22,0.85,93.91
+177,2024-04-30,2024-11-02,Direct Mail,Seniors,Personal Accident Insurance,45353.16,18600.33,14.46,2.47,90.86
+178,2024-04-25,2024-03-11,Radio,Seniors,Motor Vehicle Insurance,30984.85,67483.03,19.47,2.71,95.24
+179,2024-08-20,2024-09-09,Email,Seniors,Life Insurance,29677.47,65949.01,19.67,2.37,92.23
+180,2024-09-15,2024-02-21,Phone,Teenagers,Commercial Insurance,28820.77,7429.13,10.13,0.67,84.1
+181,2024-12-24,2024-04-03,Online Ads,Teenagers,Health Insurance,19816.14,79857.16,17.45,0.35,71.83
+182,2024-07-16,2024-04-05,Social Media,Teenagers,Personal Accident Insurance,39710.87,90808.57,14.87,1.86,95.53
+183,2024-05-16,2024-11-10,Radio,Adults,Life Insurance,14134.33,30404.45,10.27,0.27,93.62
+184,2024-11-13,2024-08-05,Email,Teenagers,Motor Vehicle Insurance,47066.96,82177.12,11.67,2.05,78.92
+185,2024-06-13,2025-01-06,TV,Teenagers,Commercial Insurance,44911.29,12828.57,3.18,1.64,61.56
+186,2024-08-12,2024-01-24,Phone,Teenagers,Travel Insurance,18199.06,61996.95,18.78,2.02,85.54
+187,2024-11-02,2024-05-22,Social Media,Seniors,Motor Vehicle Insurance,37014.26,51136.45,7.36,1.81,62.02
+188,2024-08-21,2025-01-19,Agent,Teenagers,Health Insurance,29514.71,56862.74,9.2,1.33,97.05
+189,2024-06-20,2024-09-10,TV,Adults,Commercial Insurance,18207.17,92989.49,13.6,0.68,98.47
+190,2024-05-31,2024-07-14,Radio,Seniors,Agricultural Insurance,49449.04,87774.95,7.01,0.99,67.58
+191,2024-11-10,2024-07-11,Social Media,Adults,Agricultural Insurance,3211.39,79582.95,5.46,1.62,87.06
+192,2024-06-08,2024-06-09,TV,Teenagers,Home Insurance,14127.01,31001.35,12.81,1.99,63.69
+193,2024-04-05,2024-01-30,Phone,Seniors,Life Insurance,26963.55,91622.77,0.99,2.36,89.18
+194,2024-08-20,2024-07-23,Agent,Adults,Travel Insurance,27053.74,14263.23,14.55,2.32,73.89
+195,2024-06-28,2024-07-26,TV,Teenagers,Home Insurance,30268.79,86066.28,10.52,2.92,87.24
+196,2024-04-22,2024-12-24,Broker,Adults,Commercial Insurance,38080.46,36175.21,12.31,0.93,74.92
+197,2024-11-13,2024-07-07,Agent,Adults,Agricultural Insurance,31926.94,10108.37,12.82,0.31,65.82
+198,2024-02-21,2024-07-24,Radio,Adults,Agricultural Insurance,30813.51,68588.91,10.78,1.1,76.24
+199,2024-09-24,2024-10-25,Phone,Teenagers,Agricultural Insurance,4568.69,26971.59,11.86,2.26,64.51
+200,2024-10-21,2024-03-07,Online Ads,Teenagers,Commercial Insurance,20073.45,28139.26,13.83,1.37,83.08
+201,2024-04-22,2024-06-19,Online Ads,Adults,Agricultural Insurance,13138.68,34074.48,15.19,2.47,61.64
+202,2024-04-10,2024-06-22,Online Ads,Seniors,Motor Vehicle Insurance,14737.77,11050.05,14.69,1.69,81.09
+203,2024-04-22,2024-06-06,Social Media,Seniors,Personal Accident Insurance,28608.2,21827.08,17.46,2.8,95.45
+204,2024-03-21,2024-03-01,Radio,Teenagers,Commercial Insurance,11576.26,5488.26,4.19,2.85,93.51
+205,2024-07-05,2024-12-03,Phone,Teenagers,Travel Insurance,16109.56,47313.9,8.32,0.3,95.31
+206,2024-04-22,2024-04-17,Agent,Teenagers,Personal Accident Insurance,13380.07,13004.26,18.98,1.42,96.88
+207,2024-01-02,2025-01-15,Social Media,Teenagers,Home Insurance,47528.14,69852.0,8.23,1.87,64.18
+208,2024-05-09,2024-06-30,Radio,Teenagers,Travel Insurance,47343.96,27384.17,2.93,0.84,65.15
+209,2024-08-07,2024-06-02,Broker,Seniors,Personal Accident Insurance,31277.19,94639.54,10.75,1.28,82.28
+210,2024-02-23,2024-05-21,Phone,Teenagers,Health Insurance,46377.08,87768.9,2.64,2.07,95.76
+211,2024-12-08,2024-12-18,Online Ads,Adults,Agricultural Insurance,39719.01,32496.89,4.46,0.76,98.97
+212,2024-08-11,2024-03-11,TV,Adults,Health Insurance,30317.5,79405.47,19.97,1.85,61.85
+213,2024-08-12,2024-07-14,Phone,Seniors,Life Insurance,2308.89,81308.27,11.06,2.12,74.23
+214,2024-05-05,2024-12-29,Direct Mail,Adults,Life Insurance,39080.78,98723.5,6.04,0.36,68.52
+215,2024-05-09,2024-02-24,Radio,Seniors,Personal Accident Insurance,35719.44,61794.8,19.9,1.54,90.24
+216,2024-02-22,2024-12-08,Email,Seniors,Health Insurance,31532.18,12786.74,19.35,0.86,85.61
+217,2024-06-20,2024-10-03,Broker,Adults,Commercial Insurance,38500.37,66449.54,9.09,2.2,64.8
+218,2024-08-05,2024-08-26,Phone,Teenagers,Travel Insurance,26620.26,64373.08,5.58,0.65,79.34
+219,2024-06-08,2024-06-03,Email,Adults,Health Insurance,35796.0,65643.3,16.85,2.69,87.42
+220,2024-07-16,2024-08-25,Direct Mail,Adults,Life Insurance,46888.26,34178.84,14.45,1.35,91.16
+221,2024-09-03,2024-08-10,Agent,Seniors,Health Insurance,20038.64,86669.56,13.9,0.67,60.8
+222,2024-11-19,2024-12-12,TV,Adults,Commercial Insurance,35989.85,96149.86,17.92,1.37,95.62
+223,2024-07-21,2024-02-13,Email,Seniors,Health Insurance,24833.02,25682.69,13.94,1.29,82.77
+224,2024-07-02,2024-06-22,Radio,Teenagers,Travel Insurance,34371.18,13374.46,6.03,1.34,92.48
+225,2024-05-02,2024-10-26,Online Ads,Teenagers,Home Insurance,38618.88,23480.83,14.03,1.8,92.32
+226,2024-09-11,2024-11-29,Direct Mail,Teenagers,Commercial Insurance,4181.72,82952.45,6.46,1.61,67.59
+227,2024-10-20,2024-10-25,TV,Adults,Life Insurance,33036.82,69281.24,15.31,0.53,64.41
+228,2024-10-06,2024-06-03,Broker,Seniors,Travel Insurance,12883.58,65424.5,12.59,0.29,88.85
+229,2024-11-20,2024-02-05,Online Ads,Teenagers,Health Insurance,34161.56,43170.35,2.01,2.22,66.26
+230,2024-04-07,2024-02-08,Phone,Seniors,Health Insurance,24479.85,59893.66,10.5,1.72,94.0
+231,2024-07-16,2024-09-28,Email,Seniors,Home Insurance,39130.53,34248.04,7.19,1.14,89.05
+232,2024-08-27,2024-04-01,TV,Teenagers,Life Insurance,7923.24,50334.01,6.91,2.44,93.67
+233,2024-05-23,2024-07-03,Social Media,Teenagers,Life Insurance,32063.47,80340.99,12.24,1.23,71.96
+234,2024-04-06,2024-07-24,Agent,Seniors,Motor Vehicle Insurance,15366.59,98217.95,6.79,2.41,72.66
+235,2024-07-19,2024-05-08,Agent,Teenagers,Life Insurance,42943.14,93586.45,15.65,0.99,86.85
+236,2024-05-03,2024-05-08,Direct Mail,Seniors,Home Insurance,46562.41,93717.26,1.88,0.31,61.26
+237,2024-07-05,2024-08-19,Broker,Seniors,Agricultural Insurance,49827.12,43211.25,13.38,2.8,89.06
+238,2024-11-21,2024-06-18,Direct Mail,Teenagers,Motor Vehicle Insurance,40208.36,49535.04,16.28,1.24,93.43
+239,2024-12-14,2024-12-11,Social Media,Adults,Motor Vehicle Insurance,38179.24,72035.36,13.62,2.4,76.61
+240,2024-09-15,2024-06-03,Radio,Teenagers,Health Insurance,12344.04,92608.23,10.2,0.91,90.6
+241,2024-05-27,2024-10-19,Broker,Adults,Health Insurance,18128.34,18489.45,19.03,1.97,66.98
+242,2024-09-08,2024-03-04,Radio,Seniors,Life Insurance,24352.76,33902.98,6.35,2.63,72.89
+243,2024-12-11,2025-01-14,Broker,Seniors,Motor Vehicle Insurance,39122.29,18228.45,0.87,0.22,98.97
+244,2024-05-26,2024-05-30,Broker,Adults,Personal Accident Insurance,45918.36,63140.81,8.92,2.51,99.45
+245,2024-05-27,2024-10-23,Social Media,Seniors,Health Insurance,11078.68,34098.59,1.14,1.76,80.5
+246,2024-12-17,2024-10-13,Phone,Adults,Home Insurance,46273.64,35980.25,19.1,1.86,97.37
+247,2024-07-17,2025-01-25,Social Media,Adults,Personal Accident Insurance,35389.98,11737.02,4.59,1.62,80.91
+248,2024-11-03,2024-07-04,Broker,Seniors,Health Insurance,31317.0,38230.63,15.88,2.64,71.66
+249,2024-05-07,2024-04-16,TV,Adults,Commercial Insurance,11592.38,86937.17,15.6,0.23,70.68
+250,2024-02-08,2024-03-06,Radio,Teenagers,Commercial Insurance,4665.2,27141.92,4.75,0.86,97.18
+251,2024-12-03,2024-10-25,Social Media,Teenagers,Health Insurance,29286.32,71042.81,12.61,2.64,66.9
+252,2024-12-25,2024-07-03,Phone,Seniors,Motor Vehicle Insurance,33272.75,64814.69,1.44,2.28,83.19
+253,2024-05-08,2025-01-04,Email,Seniors,Agricultural Insurance,12117.51,87031.04,9.93,0.15,82.22
+254,2024-09-23,2024-01-18,Direct Mail,Adults,Agricultural Insurance,28709.9,17567.36,0.79,1.6,89.58
+255,2024-05-30,2024-11-20,Broker,Adults,Motor Vehicle Insurance,43111.68,97871.05,18.46,1.64,79.97
+256,2024-10-24,2024-11-13,Email,Adults,Travel Insurance,42083.17,60349.72,19.53,1.26,70.89
+257,2024-04-08,2024-09-08,Agent,Adults,Agricultural Insurance,46513.05,99570.04,4.83,0.96,66.78
+258,2024-09-19,2024-11-29,Online Ads,Teenagers,Commercial Insurance,19562.52,91593.9,4.56,2.08,84.83
+259,2024-09-08,2024-09-20,Phone,Teenagers,Home Insurance,17266.38,26044.14,15.2,0.7,88.76
+260,2024-05-23,2024-12-21,Online Ads,Seniors,Motor Vehicle Insurance,37972.45,10335.39,5.44,2.42,82.78
+261,2024-12-11,2024-03-10,Phone,Adults,Life Insurance,22693.4,29285.71,17.95,2.43,89.53
+262,2024-04-21,2024-09-14,TV,Adults,Commercial Insurance,6202.34,55118.55,11.69,1.3,65.66
+263,2024-02-29,2024-09-17,Direct Mail,Seniors,Home Insurance,15574.45,21301.65,7.34,0.92,95.3
+264,2024-01-02,2024-08-20,Email,Adults,Home Insurance,22091.95,20908.68,16.74,0.92,83.3
+265,2024-10-30,2024-03-09,Radio,Adults,Motor Vehicle Insurance,16040.79,48946.39,10.12,1.5,65.07
+266,2024-09-10,2024-03-05,Phone,Adults,Home Insurance,17945.87,8160.46,18.28,2.19,78.48
+267,2024-05-19,2024-04-09,Radio,Adults,Motor Vehicle Insurance,16101.24,16579.37,18.6,1.14,93.79
+268,2024-02-06,2024-04-19,Direct Mail,Adults,Agricultural Insurance,3991.96,44506.83,3.73,1.87,95.9
+269,2024-06-08,2024-10-11,Broker,Seniors,Health Insurance,32580.55,10997.34,0.55,1.21,70.59
+270,2024-01-09,2024-10-23,Agent,Adults,Commercial Insurance,30670.04,42691.73,19.69,0.98,88.45
+271,2024-08-20,2024-04-16,Email,Seniors,Travel Insurance,33362.41,50030.6,18.17,0.17,64.0
+272,2024-04-08,2024-04-18,Direct Mail,Adults,Health Insurance,11230.88,47870.33,1.58,0.11,61.34
+273,2024-05-26,2024-04-05,Direct Mail,Teenagers,Commercial Insurance,16191.42,87571.61,16.74,0.76,82.42
+274,2024-10-30,2024-10-26,TV,Teenagers,Motor Vehicle Insurance,31741.56,55355.93,9.43,1.28,87.79
+275,2024-07-26,2024-05-04,Online Ads,Teenagers,Commercial Insurance,30782.12,49458.14,5.55,2.57,91.83
+276,2024-05-10,2024-11-06,Agent,Teenagers,Agricultural Insurance,26303.85,44017.38,17.64,2.42,73.61
+277,2024-05-31,2024-07-03,Email,Seniors,Motor Vehicle Insurance,18819.84,82674.22,4.34,0.87,60.26
+278,2024-02-23,2024-07-28,Broker,Seniors,Health Insurance,45820.69,90030.38,18.97,0.81,79.18
+279,2024-04-29,2024-09-05,Broker,Adults,Life Insurance,18308.97,86058.03,4.51,0.76,60.63
+280,2024-06-09,2024-11-24,Social Media,Teenagers,Life Insurance,23869.72,68986.92,12.47,1.08,63.68
+281,2024-04-25,2024-01-26,Direct Mail,Seniors,Personal Accident Insurance,34549.46,18049.37,4.85,1.54,73.07
+282,2024-03-15,2024-11-28,Phone,Adults,Personal Accident Insurance,28065.03,31302.65,11.14,1.37,77.49
+283,2024-04-22,2024-09-28,TV,Adults,Commercial Insurance,18650.53,9375.99,13.84,0.73,71.18
+284,2024-04-13,2024-06-13,Agent,Seniors,Life Insurance,22910.95,93428.29,4.21,0.48,83.27
+285,2024-12-05,2024-06-16,Broker,Teenagers,Motor Vehicle Insurance,40135.08,67775.86,10.66,0.14,62.21
+286,2024-09-10,2024-04-11,Email,Adults,Home Insurance,15350.2,75904.47,9.65,0.55,65.78
+287,2024-08-14,2024-06-18,Social Media,Teenagers,Motor Vehicle Insurance,8828.25,34599.32,1.89,2.15,87.81
+288,2024-04-21,2024-05-14,Email,Teenagers,Home Insurance,17031.83,85337.08,16.46,0.81,65.69
+289,2024-04-08,2024-02-07,TV,Teenagers,Health Insurance,42777.64,29662.31,7.05,1.46,85.59
+290,2024-06-01,2024-10-20,Phone,Adults,Travel Insurance,6271.51,5156.16,11.7,1.81,62.19
+291,2024-12-14,2024-07-15,Social Media,Teenagers,Home Insurance,49601.41,40759.42,10.54,2.67,76.3
+292,2024-12-31,2024-03-27,Social Media,Adults,Life Insurance,27968.14,59222.34,10.51,2.68,67.1
+293,2024-12-03,2024-01-17,Online Ads,Teenagers,Motor Vehicle Insurance,49272.6,50476.96,2.59,2.26,64.39
+294,2024-07-12,2024-11-13,Agent,Adults,Health Insurance,47071.83,86897.23,8.76,0.2,82.68
+295,2024-11-05,2024-07-18,Social Media,Teenagers,Life Insurance,23735.06,15013.5,9.32,1.77,97.13
+296,2024-06-11,2024-01-30,Online Ads,Seniors,Health Insurance,11527.57,57613.23,14.81,2.38,62.19
+297,2024-07-26,2024-09-18,Online Ads,Teenagers,Travel Insurance,9914.47,53733.04,16.88,0.15,76.86
+298,2024-06-17,2024-07-16,TV,Teenagers,Agricultural Insurance,13519.49,31732.33,11.13,1.69,88.3
+299,2024-06-09,2024-05-04,Radio,Adults,Motor Vehicle Insurance,36086.37,83111.67,2.19,2.59,78.51
+300,2024-03-08,2024-01-24,Email,Adults,Commercial Insurance,15101.6,76520.62,5.12,1.47,92.26
+301,2024-10-15,2024-10-11,Phone,Teenagers,Motor Vehicle Insurance,18388.41,74621.62,3.72,0.11,67.19
+302,2024-10-03,2024-11-01,Email,Seniors,Personal Accident Insurance,23541.38,88238.29,2.93,0.13,98.38
+303,2024-10-30,2024-10-09,Social Media,Seniors,Travel Insurance,45835.17,73664.54,7.64,1.31,75.41
+304,2024-05-14,2024-08-22,Phone,Adults,Motor Vehicle Insurance,11090.88,27024.92,4.97,0.55,73.66
+305,2024-07-13,2024-09-09,Broker,Seniors,Personal Accident Insurance,2241.27,72028.46,4.76,2.03,94.98
+306,2024-05-07,2024-03-04,Radio,Teenagers,Commercial Insurance,4884.63,34231.77,1.57,2.16,82.55
+307,2024-02-02,2024-12-25,Broker,Adults,Home Insurance,45428.78,28006.59,0.84,0.62,80.66
+308,2024-06-24,2024-12-08,Broker,Teenagers,Health Insurance,33080.79,11935.34,2.5,2.68,89.08
+309,2024-01-22,2025-01-07,Agent,Adults,Commercial Insurance,15105.95,75682.72,3.86,1.38,83.19
+310,2024-08-25,2024-10-23,Email,Adults,Life Insurance,10505.24,72545.09,8.9,0.51,66.5
+311,2024-06-06,2024-04-12,TV,Adults,Travel Insurance,16124.8,27277.45,10.46,2.32,86.97
+312,2024-02-07,2024-07-21,Broker,Adults,Home Insurance,7510.25,76191.01,3.24,2.39,65.34
+313,2024-08-17,2024-06-09,Social Media,Seniors,Life Insurance,47193.58,92194.88,8.78,1.95,92.23
+314,2024-12-30,2024-05-14,Radio,Teenagers,Life Insurance,39641.9,15262.75,7.16,2.58,99.59
+315,2024-02-20,2024-03-25,Direct Mail,Teenagers,Travel Insurance,24194.78,27100.48,4.08,2.24,75.1
+316,2024-09-20,2024-08-23,Broker,Teenagers,Home Insurance,43518.21,76274.78,0.63,2.66,77.79
+317,2024-10-09,2024-06-02,Radio,Adults,Agricultural Insurance,13973.99,31078.13,9.61,1.36,61.86
+318,2024-01-27,2024-09-03,Phone,Seniors,Life Insurance,36421.79,64343.08,13.87,2.27,60.55
+319,2024-08-13,2024-08-06,Email,Teenagers,Life Insurance,43094.36,12710.6,4.91,3.0,96.86
+320,2024-10-03,2024-05-02,Online Ads,Seniors,Home Insurance,19124.9,47959.24,3.07,2.2,65.14
+321,2024-10-12,2024-08-08,Agent,Adults,Motor Vehicle Insurance,38358.29,75213.69,17.8,0.43,77.83
+322,2024-04-06,2024-02-08,Radio,Teenagers,Life Insurance,16163.47,70218.82,5.86,1.6,92.61
+323,2024-10-10,2024-01-31,Social Media,Seniors,Health Insurance,16345.14,82431.85,4.86,1.8,95.57
+324,2024-11-12,2024-02-24,Social Media,Adults,Home Insurance,7138.74,88357.95,17.21,0.61,80.78
+325,2024-10-30,2024-09-20,Radio,Seniors,Life Insurance,23122.79,78452.43,16.43,2.89,82.6
+326,2024-05-26,2024-10-16,Social Media,Teenagers,Travel Insurance,37026.17,68800.84,9.24,0.61,86.79
+327,2024-01-04,2025-01-17,Email,Teenagers,Commercial Insurance,47130.6,8013.64,10.04,0.61,98.46
+328,2024-02-04,2024-08-13,Social Media,Adults,Health Insurance,30982.26,55821.83,4.75,2.75,84.11
+329,2024-07-10,2024-09-12,Online Ads,Adults,Personal Accident Insurance,43430.51,8581.28,2.03,1.45,82.38
+330,2024-02-18,2024-10-24,Social Media,Adults,Personal Accident Insurance,41479.74,81766.44,11.68,0.28,60.58
+331,2024-01-17,2024-08-31,Online Ads,Seniors,Commercial Insurance,10320.47,35468.83,2.42,1.83,63.24
+332,2024-06-20,2024-01-19,Broker,Seniors,Personal Accident Insurance,25319.24,58430.79,9.26,1.85,83.09
+333,2024-08-07,2024-06-25,TV,Seniors,Commercial Insurance,7612.33,31547.3,18.84,0.29,97.45
+334,2024-06-06,2024-02-19,Email,Adults,Life Insurance,34743.35,79337.51,19.08,2.92,94.67
+335,2024-02-15,2024-05-09,TV,Teenagers,Health Insurance,47595.18,89217.74,5.17,1.68,99.3
+336,2024-01-06,2024-04-08,Broker,Teenagers,Health Insurance,8580.29,42871.04,12.67,1.72,81.11
+337,2024-04-08,2024-08-04,Email,Seniors,Motor Vehicle Insurance,37226.39,86977.63,9.74,1.61,91.52
+338,2024-08-20,2024-11-14,Radio,Seniors,Commercial Insurance,32347.43,30372.13,17.58,1.87,93.62
+339,2024-02-06,2024-04-03,Radio,Teenagers,Health Insurance,30013.04,55792.79,5.79,0.87,85.92
+340,2024-10-06,2024-12-05,Online Ads,Teenagers,Motor Vehicle Insurance,20725.77,86582.34,0.57,0.93,73.55
+341,2024-12-14,2024-06-02,Broker,Seniors,Home Insurance,19046.32,35958.73,3.67,1.58,78.8
+342,2024-10-28,2024-05-13,Online Ads,Seniors,Motor Vehicle Insurance,4171.96,95634.02,7.32,2.44,94.32
+343,2024-06-29,2024-12-18,Agent,Teenagers,Travel Insurance,12459.62,16578.55,6.66,0.24,71.94
+344,2024-04-04,2024-03-08,Social Media,Adults,Agricultural Insurance,2728.49,6736.13,15.93,1.85,96.95
+345,2024-04-08,2025-01-17,Direct Mail,Seniors,Life Insurance,29908.02,90892.86,13.77,2.44,69.19
+346,2024-07-06,2024-03-10,Agent,Teenagers,Home Insurance,7080.96,11521.62,6.34,0.56,89.98
+347,2024-04-25,2024-02-18,Social Media,Teenagers,Agricultural Insurance,43904.93,99229.47,9.43,0.14,85.22
+348,2024-07-09,2024-01-31,Email,Teenagers,Agricultural Insurance,27110.86,95382.7,2.36,1.01,89.98
+349,2024-09-09,2024-07-04,Online Ads,Teenagers,Home Insurance,35585.12,18016.99,18.01,1.81,77.49
+350,2024-06-09,2024-06-30,Email,Adults,Travel Insurance,21721.14,56070.54,18.74,0.5,97.31
+351,2024-09-12,2024-03-17,Email,Teenagers,Motor Vehicle Insurance,28907.83,22567.43,19.61,1.34,85.3
+352,2024-11-18,2024-04-24,Social Media,Seniors,Life Insurance,47247.64,45674.74,17.44,1.7,71.53
+353,2024-05-07,2024-05-07,Broker,Adults,Motor Vehicle Insurance,5971.23,10835.39,3.89,1.84,85.54
+354,2024-01-18,2025-01-24,Social Media,Teenagers,Health Insurance,14189.01,26272.84,1.4,0.9,71.47
+355,2024-10-07,2025-01-01,Phone,Adults,Motor Vehicle Insurance,39439.44,39510.92,11.8,1.26,71.75
+356,2024-08-10,2024-01-30,Radio,Seniors,Personal Accident Insurance,6739.39,46671.51,18.3,2.36,75.98
+357,2024-02-23,2024-11-27,Radio,Teenagers,Home Insurance,5631.73,97862.14,3.96,2.83,94.1
+358,2024-02-27,2024-10-31,Agent,Seniors,Life Insurance,19353.99,81747.24,0.64,2.6,80.01
+359,2024-11-18,2024-06-02,Radio,Teenagers,Motor Vehicle Insurance,6424.06,75053.94,16.21,1.74,87.16
+360,2024-12-25,2024-09-03,Social Media,Teenagers,Life Insurance,30083.77,56018.92,2.0,1.29,75.68
+361,2024-06-22,2024-06-18,Online Ads,Teenagers,Life Insurance,12861.21,84799.79,8.57,1.07,70.54
+362,2024-10-06,2024-05-06,Social Media,Teenagers,Health Insurance,44993.5,37235.67,13.74,0.46,98.19
+363,2024-04-23,2024-10-19,Social Media,Teenagers,Health Insurance,39608.0,72345.42,5.12,0.41,84.14
+364,2024-10-14,2024-09-21,Direct Mail,Adults,Home Insurance,35585.85,99409.48,2.14,2.1,97.36
+365,2024-12-07,2024-11-30,Online Ads,Teenagers,Travel Insurance,31613.31,34889.75,15.52,0.85,68.14
+366,2024-05-30,2024-06-28,Phone,Teenagers,Personal Accident Insurance,43446.36,69031.67,12.79,0.84,65.88
+367,2024-05-06,2024-07-16,Radio,Adults,Agricultural Insurance,12706.98,85209.91,19.78,2.99,94.23
+368,2024-06-03,2024-05-20,Online Ads,Adults,Life Insurance,43909.22,92001.72,7.21,0.64,87.24
+369,2024-09-29,2024-03-08,Radio,Adults,Travel Insurance,39895.63,73203.61,1.7,0.53,67.46
+370,2024-04-13,2024-03-19,Agent,Adults,Agricultural Insurance,37911.72,31942.75,14.82,0.39,70.77
+371,2024-10-25,2024-05-19,Online Ads,Adults,Agricultural Insurance,28940.27,35996.8,10.67,1.78,92.03
+372,2024-09-02,2024-11-27,Radio,Adults,Personal Accident Insurance,13819.72,6972.01,4.66,1.92,78.15
+373,2024-06-24,2025-01-26,Phone,Teenagers,Home Insurance,22330.3,77284.17,15.74,1.16,86.82
+374,2024-02-08,2024-07-12,TV,Teenagers,Agricultural Insurance,40091.39,9060.26,4.47,1.65,72.73
+375,2024-06-18,2024-11-08,Email,Seniors,Personal Accident Insurance,3525.37,87141.97,5.58,2.39,75.25
+376,2024-09-03,2024-07-12,Email,Teenagers,Agricultural Insurance,39538.44,16272.76,2.3,2.47,99.63
+377,2024-01-26,2024-11-01,Phone,Teenagers,Life Insurance,13523.4,21328.27,8.29,2.88,69.9
+378,2024-12-20,2024-10-11,Direct Mail,Adults,Life Insurance,8926.84,50270.01,8.67,2.49,80.26
+379,2024-11-01,2024-02-09,TV,Adults,Commercial Insurance,7553.66,75098.64,10.53,1.74,93.78
+380,2024-01-13,2024-05-31,Agent,Teenagers,Travel Insurance,3308.0,18205.21,14.32,0.62,69.57
+381,2024-11-11,2024-10-12,Phone,Seniors,Motor Vehicle Insurance,27132.15,46806.75,18.17,0.39,76.61
+382,2024-11-08,2024-11-01,Email,Adults,Personal Accident Insurance,12476.47,50870.87,3.19,0.26,84.6
+383,2024-02-05,2024-02-07,Email,Teenagers,Health Insurance,49492.72,25167.14,1.56,2.03,79.25
+384,2024-06-21,2024-06-27,Email,Teenagers,Personal Accident Insurance,29572.96,15978.05,0.86,2.44,78.38
+385,2024-01-20,2024-05-03,Broker,Seniors,Motor Vehicle Insurance,8618.49,84459.99,3.3,1.58,74.5
+386,2024-11-16,2024-07-20,Phone,Seniors,Travel Insurance,35060.6,52734.24,13.33,0.26,83.47
+387,2024-09-20,2024-11-16,Social Media,Adults,Health Insurance,45091.69,6366.22,14.69,1.65,84.97
+388,2024-05-21,2024-09-15,Agent,Seniors,Motor Vehicle Insurance,37768.62,81283.22,15.84,2.81,86.13
+389,2024-05-22,2024-09-07,Email,Teenagers,Commercial Insurance,5669.11,98175.41,5.25,1.83,62.81
+390,2024-04-01,2024-11-18,Radio,Teenagers,Health Insurance,45002.44,62562.99,6.46,2.45,85.24
+391,2024-12-19,2024-04-12,Phone,Seniors,Life Insurance,40108.61,52852.3,9.92,2.42,98.13
+392,2024-11-17,2024-02-28,Broker,Seniors,Motor Vehicle Insurance,9598.59,88449.51,1.73,2.8,81.64
+393,2024-10-14,2024-05-03,Phone,Seniors,Personal Accident Insurance,4485.72,95489.1,12.42,2.33,88.61
+394,2024-08-02,2024-06-09,Agent,Seniors,Health Insurance,28750.91,76681.01,19.68,2.27,82.27
+395,2024-12-07,2024-09-27,Broker,Adults,Commercial Insurance,9489.72,47318.03,7.54,0.78,94.19
+396,2024-02-20,2024-03-26,Agent,Seniors,Personal Accident Insurance,42060.37,61261.03,15.18,0.27,97.18
+397,2024-06-01,2024-11-09,Phone,Adults,Agricultural Insurance,19200.06,71588.86,10.25,1.6,67.37
+398,2024-07-04,2024-11-08,Social Media,Teenagers,Health Insurance,45818.84,23455.99,2.99,0.46,77.47
+399,2024-03-03,2024-09-11,Agent,Seniors,Health Insurance,29153.03,47484.1,11.85,2.89,75.7
+400,2024-07-08,2024-02-21,Broker,Adults,Commercial Insurance,10768.27,83833.02,6.35,0.94,76.21
+401,2024-05-04,2024-09-02,Broker,Seniors,Agricultural Insurance,8700.75,67198.91,1.17,2.57,65.02
+402,2024-05-29,2024-05-28,Agent,Teenagers,Motor Vehicle Insurance,29670.68,44064.39,12.88,1.22,92.54
+403,2024-11-09,2024-09-11,Phone,Teenagers,Home Insurance,38570.41,68019.44,17.25,1.04,61.43
+404,2024-02-27,2024-09-26,Direct Mail,Teenagers,Motor Vehicle Insurance,39512.27,16231.13,7.22,2.81,81.13
+405,2024-12-07,2024-12-14,Phone,Seniors,Agricultural Insurance,15236.36,43142.27,8.11,1.15,86.48
+406,2024-10-31,2025-01-20,Agent,Seniors,Travel Insurance,11803.84,80347.21,17.87,1.23,68.3
+407,2024-06-28,2024-07-30,TV,Adults,Personal Accident Insurance,2804.3,25948.33,16.37,0.41,96.23
+408,2024-06-18,2024-06-14,Agent,Teenagers,Commercial Insurance,34601.56,22666.34,14.44,2.04,93.54
+409,2024-11-21,2024-04-01,Social Media,Seniors,Motor Vehicle Insurance,5675.28,95327.77,5.35,0.94,78.84
+410,2024-09-27,2024-08-14,Agent,Teenagers,Health Insurance,22196.54,24940.27,18.25,1.8,76.45
+411,2024-02-23,2024-11-03,Agent,Teenagers,Commercial Insurance,30880.74,29787.27,3.51,1.81,69.46
+412,2024-04-10,2024-01-29,Social Media,Adults,Life Insurance,46981.23,97113.51,12.72,2.19,89.2
+413,2024-09-20,2024-05-22,Agent,Adults,Agricultural Insurance,16966.5,74797.31,1.06,2.26,65.27
+414,2024-02-22,2024-08-06,Email,Adults,Personal Accident Insurance,13989.06,71461.67,13.05,1.59,87.21
+415,2024-02-29,2024-03-03,TV,Adults,Motor Vehicle Insurance,33399.69,86028.01,5.9,1.06,93.7
+416,2024-04-17,2024-05-08,Radio,Teenagers,Commercial Insurance,31723.47,16003.19,9.27,2.53,69.14
+417,2024-01-05,2024-03-11,TV,Adults,Personal Accident Insurance,17941.27,72065.84,7.23,1.0,94.66
+418,2024-04-12,2024-01-29,Agent,Adults,Motor Vehicle Insurance,46548.89,52850.42,3.87,1.57,61.33
+419,2024-07-14,2024-02-28,Email,Adults,Commercial Insurance,42553.39,83769.31,12.63,1.26,96.51
+420,2024-09-18,2024-11-09,Phone,Adults,Health Insurance,12751.16,53273.46,17.7,2.58,64.73
+421,2024-12-30,2024-06-05,Agent,Teenagers,Life Insurance,13478.84,63922.93,19.2,1.35,85.83
+422,2024-12-15,2024-09-01,Email,Adults,Life Insurance,26590.42,50385.5,4.25,1.22,70.0
+423,2024-02-16,2024-04-27,Social Media,Teenagers,Travel Insurance,39131.46,50425.1,14.49,2.1,93.46
+424,2024-12-20,2024-07-03,Email,Seniors,Commercial Insurance,4113.94,77957.15,13.45,1.85,80.49
+425,2024-11-06,2024-04-13,Social Media,Teenagers,Motor Vehicle Insurance,35280.09,64713.81,7.2,0.41,65.41
+426,2024-11-03,2024-12-22,Direct Mail,Teenagers,Life Insurance,33115.32,65160.0,0.87,1.57,82.84
+427,2024-05-23,2024-01-31,Radio,Adults,Agricultural Insurance,13111.04,47776.84,13.95,2.23,76.32
+428,2024-09-25,2024-10-07,Online Ads,Seniors,Life Insurance,34704.94,55455.4,18.94,2.98,86.46
+429,2024-05-03,2024-04-29,Email,Seniors,Home Insurance,47128.79,75843.18,12.83,1.92,95.28
+430,2024-04-15,2024-03-11,Broker,Seniors,Home Insurance,4245.72,83464.39,8.99,1.17,76.38
+431,2024-06-06,2024-11-21,Agent,Seniors,Life Insurance,17343.3,71173.33,10.74,0.76,71.6
+432,2024-05-26,2024-02-06,TV,Teenagers,Commercial Insurance,23032.48,92786.93,4.39,2.63,60.58
+433,2024-05-24,2024-12-14,Online Ads,Seniors,Travel Insurance,45164.5,82930.79,15.14,2.46,82.99
+434,2024-04-29,2024-03-05,TV,Teenagers,Life Insurance,48188.55,58377.06,15.06,0.78,76.09
+435,2024-11-14,2024-11-20,Direct Mail,Teenagers,Health Insurance,23317.53,68783.58,3.34,0.68,74.99
+436,2024-10-01,2024-11-08,Online Ads,Teenagers,Personal Accident Insurance,38001.36,92999.29,17.62,2.17,67.32
+437,2024-04-01,2024-01-15,Online Ads,Seniors,Motor Vehicle Insurance,27519.73,63820.96,5.75,1.01,77.2
+438,2024-02-27,2024-11-19,TV,Adults,Travel Insurance,27813.58,83356.66,19.65,0.99,99.38
+439,2024-12-11,2024-04-18,Social Media,Adults,Health Insurance,15348.78,70437.0,7.97,0.54,71.91
+440,2024-08-16,2024-08-18,TV,Seniors,Travel Insurance,12413.9,57433.95,3.97,0.87,83.99
+441,2024-04-26,2024-12-27,Social Media,Adults,Health Insurance,15824.26,27974.63,7.36,1.34,91.06
+442,2024-11-13,2024-10-13,Direct Mail,Adults,Motor Vehicle Insurance,28703.74,45469.76,9.08,2.23,89.97
+443,2024-10-05,2024-06-15,Agent,Teenagers,Motor Vehicle Insurance,3399.45,96935.57,1.85,1.08,73.15
+444,2024-05-06,2024-04-04,Phone,Teenagers,Home Insurance,45547.95,67487.71,11.78,1.05,84.43
+445,2024-05-08,2024-08-21,Social Media,Seniors,Commercial Insurance,9501.62,58617.56,12.15,0.93,94.85
+446,2024-02-27,2024-08-13,Direct Mail,Seniors,Health Insurance,12564.26,93630.88,14.91,1.49,60.62
+447,2024-05-01,2024-08-13,Broker,Adults,Personal Accident Insurance,26877.26,60718.62,1.07,0.62,77.43
+448,2024-01-01,2024-02-04,Direct Mail,Teenagers,Home Insurance,36085.51,54977.84,11.05,1.51,68.97
+449,2024-08-26,2024-04-13,TV,Seniors,Health Insurance,6594.99,77134.53,1.53,2.14,75.55
+450,2024-10-16,2024-09-28,TV,Seniors,Home Insurance,17249.35,72703.23,14.17,0.19,76.64
+451,2024-04-05,2024-06-14,Phone,Seniors,Motor Vehicle Insurance,48496.38,23350.2,1.59,0.13,89.87
+452,2024-05-05,2024-03-01,Direct Mail,Seniors,Travel Insurance,14592.46,49774.29,18.28,0.32,63.75
+453,2024-04-27,2025-01-02,Radio,Seniors,Agricultural Insurance,17026.41,49888.97,14.19,1.65,80.5
+454,2024-02-17,2024-02-02,Agent,Seniors,Home Insurance,42151.93,40931.33,10.39,2.58,82.57
+455,2024-03-29,2024-03-10,TV,Adults,Health Insurance,4410.29,54142.88,9.11,0.11,79.77
+456,2024-08-24,2024-10-30,Phone,Teenagers,Health Insurance,24301.43,44245.2,3.05,2.82,89.27
+457,2024-09-28,2024-10-02,Agent,Teenagers,Agricultural Insurance,20221.6,23937.82,6.17,0.41,75.35
+458,2024-07-07,2024-02-04,Direct Mail,Seniors,Commercial Insurance,17196.16,44174.82,17.44,2.54,97.8
+459,2024-07-10,2024-08-14,Direct Mail,Teenagers,Personal Accident Insurance,15713.58,11866.31,18.14,1.5,79.27
+460,2024-03-09,2024-10-25,Online Ads,Teenagers,Motor Vehicle Insurance,6385.96,59699.66,0.51,2.01,82.85
+461,2024-10-04,2024-04-23,Phone,Teenagers,Health Insurance,17111.64,86097.18,12.09,1.58,93.02
+462,2024-12-14,2024-09-25,TV,Seniors,Life Insurance,4066.52,73902.27,14.53,1.48,71.01
+463,2024-09-03,2024-10-01,Radio,Seniors,Travel Insurance,39486.27,39237.43,12.57,2.52,63.01
+464,2024-03-16,2024-12-23,Direct Mail,Teenagers,Home Insurance,21114.93,13271.76,2.09,2.29,88.31
+465,2024-06-02,2024-05-16,Radio,Teenagers,Commercial Insurance,23307.38,24204.19,4.75,1.5,79.32
+466,2024-05-23,2024-01-20,Direct Mail,Seniors,Personal Accident Insurance,44892.54,56821.58,5.38,0.42,95.86
+467,2024-03-26,2024-05-29,TV,Adults,Agricultural Insurance,33586.64,24670.42,16.72,0.43,99.31
+468,2024-07-03,2024-07-05,Agent,Teenagers,Travel Insurance,2386.84,56677.45,9.53,2.42,75.96
+469,2024-10-11,2024-12-04,Email,Adults,Motor Vehicle Insurance,47272.39,27001.91,9.99,1.64,76.62
+470,2024-08-07,2024-11-26,Agent,Teenagers,Commercial Insurance,13382.93,85647.77,18.73,1.5,76.32
+471,2024-03-09,2024-08-17,Direct Mail,Adults,Personal Accident Insurance,7165.48,42740.79,12.92,2.07,72.98
+472,2024-02-16,2024-04-08,Email,Adults,Home Insurance,38870.15,28327.31,18.02,2.59,91.27
+473,2024-04-03,2024-09-01,Email,Adults,Home Insurance,26022.91,82170.99,9.4,1.92,90.36
+474,2024-08-25,2024-04-30,Radio,Seniors,Agricultural Insurance,22820.99,37569.7,3.41,2.31,79.15
+475,2024-07-22,2024-10-27,Phone,Adults,Life Insurance,13976.15,15591.33,18.63,2.32,61.79
+476,2024-08-05,2024-02-02,Radio,Adults,Agricultural Insurance,28278.63,59188.9,9.44,1.13,72.38
+477,2024-12-06,2024-06-11,Radio,Adults,Motor Vehicle Insurance,15170.46,60248.6,4.04,0.89,71.69
+478,2024-02-08,2024-06-22,Agent,Teenagers,Commercial Insurance,45275.98,72896.09,6.4,2.42,92.44
+479,2024-04-09,2024-05-09,Agent,Adults,Commercial Insurance,12329.82,27820.85,1.49,1.19,63.5
+480,2024-10-15,2024-07-29,Broker,Teenagers,Health Insurance,44449.05,47158.28,9.63,2.72,92.23
+481,2024-09-10,2024-11-01,Direct Mail,Adults,Life Insurance,28851.46,31824.95,17.14,0.3,86.77
+482,2024-08-09,2024-04-14,Broker,Adults,Life Insurance,41767.43,12690.6,18.7,0.27,89.3
+483,2024-12-22,2024-05-12,TV,Seniors,Commercial Insurance,36216.61,88278.31,18.69,2.79,77.29
+484,2024-01-23,2024-10-20,Direct Mail,Teenagers,Commercial Insurance,35441.37,74242.63,2.94,1.98,87.19
+485,2024-09-06,2024-07-01,Direct Mail,Adults,Travel Insurance,17568.6,33638.99,7.95,1.2,84.36
+486,2024-01-10,2024-07-11,Online Ads,Teenagers,Personal Accident Insurance,13227.05,61940.43,1.05,2.29,90.76
+487,2024-09-02,2025-01-06,Online Ads,Teenagers,Travel Insurance,12122.54,24120.06,17.18,2.05,77.87
+488,2024-11-20,2024-02-09,Social Media,Seniors,Travel Insurance,43145.2,89572.48,7.5,1.64,78.91
+489,2024-04-09,2024-01-27,Social Media,Seniors,Life Insurance,41380.49,15916.1,12.81,0.39,85.74
+490,2024-10-16,2024-01-06,Radio,Seniors,Health Insurance,23147.53,5364.53,14.44,2.46,64.32
+491,2024-06-28,2025-01-10,TV,Seniors,Home Insurance,8355.42,52690.78,8.88,2.61,77.45
+492,2024-08-10,2024-08-25,Email,Seniors,Travel Insurance,20348.11,60397.14,6.48,0.6,98.88
+493,2024-09-06,2024-06-19,Email,Seniors,Health Insurance,31728.49,60001.71,19.26,2.57,61.5
+494,2024-05-26,2024-02-07,Online Ads,Seniors,Agricultural Insurance,23811.35,10178.63,19.31,2.65,72.64
+495,2024-04-05,2024-05-04,Online Ads,Seniors,Motor Vehicle Insurance,39449.08,34834.16,6.14,1.69,72.56
+496,2024-09-13,2024-12-02,Online Ads,Adults,Travel Insurance,49885.9,52423.9,9.85,2.0,85.34
+497,2024-11-20,2024-08-17,Phone,Teenagers,Agricultural Insurance,11174.34,25575.02,19.47,1.21,64.23
+498,2024-01-04,2024-06-25,Social Media,Seniors,Home Insurance,24063.24,87899.46,0.59,0.92,85.14
+499,2024-01-16,2024-02-15,Agent,Seniors,Motor Vehicle Insurance,22687.23,13275.38,8.55,2.19,63.8
+500,2024-10-06,2024-09-15,Email,Teenagers,Motor Vehicle Insurance,16615.64,51301.52,2.46,2.6,63.8
+501,2024-12-01,2024-09-23,Direct Mail,Adults,Home Insurance,11508.58,70684.53,10.43,2.0,89.13
+502,2024-09-03,2024-10-07,Social Media,Teenagers,Travel Insurance,5153.22,29866.35,0.98,1.58,72.97
+503,2024-09-14,2024-05-23,Broker,Teenagers,Life Insurance,44581.73,64302.87,8.43,0.56,99.1
+504,2024-06-08,2024-10-17,Agent,Seniors,Home Insurance,22152.74,83791.59,4.8,0.26,61.49
+505,2024-12-05,2024-05-03,Social Media,Teenagers,Home Insurance,25850.98,23082.01,10.9,1.39,77.8
+506,2024-05-31,2024-08-23,TV,Teenagers,Home Insurance,46013.22,92135.96,19.92,0.24,64.53
+507,2024-06-26,2024-02-18,Direct Mail,Seniors,Motor Vehicle Insurance,39261.94,57588.06,16.11,1.75,74.06
+508,2024-06-11,2024-11-19,Social Media,Seniors,Personal Accident Insurance,8264.06,33427.04,16.99,1.21,99.93
+509,2024-02-02,2024-02-04,Phone,Seniors,Health Insurance,29140.16,45931.54,12.89,2.3,95.55
+510,2024-06-27,2024-12-08,Online Ads,Seniors,Agricultural Insurance,23228.11,34658.23,1.31,0.99,61.93
+511,2024-04-10,2024-09-02,Online Ads,Teenagers,Life Insurance,40266.13,73885.56,4.53,1.82,82.53
+512,2024-09-24,2024-09-14,Direct Mail,Teenagers,Travel Insurance,36763.16,80648.56,18.54,1.66,85.91
+513,2024-11-18,2024-07-15,Online Ads,Adults,Travel Insurance,35139.47,84129.05,7.64,0.11,68.38
+514,2024-03-05,2024-10-03,Social Media,Adults,Agricultural Insurance,18346.15,98647.98,2.52,0.31,65.8
+515,2024-06-16,2024-09-05,Broker,Teenagers,Health Insurance,40638.26,80172.01,14.2,0.94,96.18
+516,2024-11-25,2024-09-22,Email,Adults,Home Insurance,4514.78,62131.49,6.34,2.66,98.75
+517,2024-02-12,2024-10-07,Email,Teenagers,Personal Accident Insurance,9662.0,37225.93,5.74,0.53,99.68
+518,2024-02-13,2025-01-15,Agent,Adults,Life Insurance,18109.92,56736.57,19.96,2.16,91.59
+519,2024-10-11,2024-12-16,Radio,Seniors,Travel Insurance,5686.76,8901.48,17.23,2.92,86.54
+520,2024-01-12,2024-03-13,TV,Adults,Agricultural Insurance,13279.73,75758.38,8.45,2.39,73.83
+521,2024-04-04,2024-06-30,Direct Mail,Seniors,Commercial Insurance,41847.25,47365.78,19.62,0.8,66.86
+522,2024-10-28,2024-01-05,Agent,Seniors,Personal Accident Insurance,47516.07,6902.21,13.18,2.73,63.16
+523,2024-09-09,2024-06-02,Radio,Seniors,Agricultural Insurance,16620.91,10938.16,14.97,0.37,87.73
+524,2024-08-29,2024-07-04,Phone,Seniors,Personal Accident Insurance,14696.76,41809.31,1.11,1.46,91.39
+525,2024-02-04,2024-11-21,Phone,Adults,Travel Insurance,15434.85,60425.04,2.87,2.67,93.06
+526,2024-08-02,2024-06-20,TV,Teenagers,Home Insurance,15330.52,49099.38,12.85,1.96,96.55
+527,2024-12-02,2024-11-04,Online Ads,Seniors,Commercial Insurance,3724.65,63824.41,18.03,1.3,95.2
+528,2024-03-30,2024-06-22,Social Media,Adults,Health Insurance,46491.98,50627.95,12.66,0.95,99.99
+529,2024-09-20,2024-07-14,Agent,Seniors,Life Insurance,12257.51,67861.87,3.11,1.19,69.76
+530,2024-04-02,2024-03-23,Agent,Adults,Health Insurance,22160.2,25816.98,2.76,1.58,90.53
+531,2024-03-30,2024-11-19,Direct Mail,Adults,Health Insurance,2464.97,15720.1,16.96,1.03,83.46
+532,2024-04-24,2024-12-17,Direct Mail,Adults,Agricultural Insurance,43181.84,61661.23,3.22,2.91,70.45
+533,2024-04-14,2024-05-26,Phone,Teenagers,Personal Accident Insurance,37095.55,51045.5,10.64,2.81,99.28
+534,2024-07-14,2024-07-06,Phone,Adults,Life Insurance,47444.29,7552.43,1.22,2.62,95.92
+535,2024-11-09,2024-10-31,Broker,Adults,Life Insurance,39517.54,41145.78,2.07,1.32,65.14
+536,2024-04-23,2024-03-30,Broker,Teenagers,Travel Insurance,17057.91,15081.93,13.61,2.1,61.05
+537,2024-03-15,2024-08-13,Online Ads,Teenagers,Travel Insurance,13897.92,55478.9,13.94,2.72,87.53
+538,2024-08-04,2024-10-26,Broker,Adults,Life Insurance,35490.38,42598.88,7.16,2.57,84.17
+539,2024-10-03,2024-11-30,Social Media,Teenagers,Commercial Insurance,19477.41,63249.43,4.7,1.3,97.43
+540,2024-09-05,2024-11-22,Social Media,Seniors,Motor Vehicle Insurance,29178.32,81532.21,16.37,0.43,69.36
+541,2024-06-12,2024-12-13,Agent,Seniors,Travel Insurance,2300.36,33468.52,4.73,0.32,63.38
+542,2024-12-22,2024-01-28,Email,Teenagers,Motor Vehicle Insurance,4970.51,96399.7,11.07,1.77,70.37
+543,2024-07-10,2024-03-26,Social Media,Teenagers,Agricultural Insurance,27697.66,55885.28,19.38,1.96,60.76
+544,2024-08-14,2024-12-19,Radio,Adults,Commercial Insurance,29171.44,63737.63,3.38,2.56,61.44
+545,2024-06-25,2024-08-15,Phone,Teenagers,Life Insurance,38069.74,69663.88,18.85,0.95,96.59
+546,2024-04-08,2024-06-13,Direct Mail,Adults,Commercial Insurance,8334.34,68339.5,4.07,0.59,74.08
+547,2024-02-05,2024-07-18,Broker,Seniors,Travel Insurance,26632.79,53542.22,11.57,1.2,76.43
+548,2024-04-05,2024-03-04,Agent,Teenagers,Health Insurance,11333.49,45732.61,7.85,1.13,60.73
+549,2024-05-31,2024-09-28,TV,Adults,Agricultural Insurance,6473.41,10109.29,19.32,0.48,70.82
+550,2024-05-30,2024-03-11,Direct Mail,Adults,Life Insurance,21703.8,7098.16,5.83,2.05,92.19
+551,2024-07-08,2024-03-31,Radio,Seniors,Home Insurance,9840.16,39006.31,8.29,1.58,84.62
+552,2024-08-11,2024-06-21,Broker,Teenagers,Agricultural Insurance,12645.53,36697.78,19.67,2.19,90.15
+553,2024-02-06,2024-12-31,Radio,Seniors,Personal Accident Insurance,17242.62,41831.04,10.96,1.12,77.89
+554,2024-09-24,2024-03-23,Phone,Adults,Motor Vehicle Insurance,14450.64,18144.98,10.3,1.04,72.39
+555,2024-07-01,2024-11-29,Phone,Adults,Commercial Insurance,6204.38,75125.99,5.53,1.47,79.31
+556,2024-01-13,2024-09-23,Online Ads,Teenagers,Life Insurance,6315.98,86411.62,14.18,2.64,72.92
+557,2024-10-05,2025-01-26,Agent,Adults,Agricultural Insurance,11275.97,94177.89,0.78,0.22,93.56
+558,2024-08-04,2024-12-23,Direct Mail,Teenagers,Commercial Insurance,4426.84,51774.42,1.47,2.43,71.91
+559,2024-12-20,2024-04-27,Direct Mail,Seniors,Life Insurance,32069.94,71582.24,12.19,1.17,86.39
+560,2024-12-26,2024-08-26,TV,Teenagers,Travel Insurance,15791.68,86277.36,7.16,2.58,65.48
+561,2024-10-12,2024-12-05,Agent,Teenagers,Agricultural Insurance,15427.81,44737.66,19.09,2.43,87.47
+562,2024-09-29,2024-08-13,Radio,Adults,Travel Insurance,17935.92,34394.22,18.11,1.11,96.53
+563,2024-03-02,2024-09-07,TV,Adults,Agricultural Insurance,33814.22,93988.83,14.42,2.11,84.34
+564,2024-03-24,2024-09-23,Email,Teenagers,Travel Insurance,43790.43,53989.27,16.45,0.56,82.39
+565,2024-08-04,2024-10-08,Direct Mail,Adults,Personal Accident Insurance,38436.17,52239.12,13.51,2.7,98.44
+566,2024-12-07,2024-01-13,Radio,Adults,Commercial Insurance,36921.4,21949.53,2.95,1.27,85.1
+567,2024-07-05,2024-09-26,Social Media,Adults,Home Insurance,25250.78,15274.73,15.43,1.42,70.38
+568,2024-01-19,2024-03-01,Online Ads,Teenagers,Agricultural Insurance,35302.67,85000.15,4.6,2.15,71.7
+569,2024-06-25,2024-03-01,Agent,Adults,Personal Accident Insurance,28532.59,63342.65,6.81,2.48,88.21
+570,2024-04-09,2024-08-30,Phone,Teenagers,Agricultural Insurance,12380.03,35953.34,16.48,0.79,89.42
+571,2024-08-20,2024-06-27,Social Media,Adults,Travel Insurance,12012.24,23214.94,10.96,2.02,72.14
+572,2024-03-16,2024-02-03,Online Ads,Seniors,Life Insurance,16226.82,57772.24,17.27,1.24,73.81
+573,2024-09-21,2024-04-19,Online Ads,Adults,Agricultural Insurance,45718.53,60472.33,4.65,1.17,99.64
+574,2024-10-10,2024-01-28,Email,Adults,Personal Accident Insurance,28275.91,24664.39,12.35,2.1,64.08
+575,2024-07-24,2024-09-10,Email,Teenagers,Travel Insurance,37227.46,85883.55,2.13,1.22,76.19
+576,2024-08-10,2024-03-22,Broker,Teenagers,Health Insurance,18634.82,13005.11,13.04,1.1,62.5
+577,2024-02-21,2024-07-11,Broker,Adults,Travel Insurance,21570.36,38828.84,15.37,2.52,92.84
+578,2024-12-04,2024-12-31,TV,Seniors,Commercial Insurance,8027.15,69636.52,11.91,0.39,63.69
+579,2024-05-23,2024-03-05,Online Ads,Adults,Home Insurance,10222.16,31041.43,5.69,2.06,86.96
+580,2024-03-09,2024-06-16,Social Media,Adults,Health Insurance,41713.11,83629.14,1.11,0.82,62.26
+581,2024-04-08,2024-08-17,Agent,Seniors,Commercial Insurance,30072.25,75287.44,2.83,0.14,86.91
+582,2024-01-25,2024-01-18,Online Ads,Teenagers,Commercial Insurance,18201.56,79957.17,12.63,0.58,93.72
+583,2024-02-22,2024-06-10,Email,Adults,Commercial Insurance,40536.86,16315.12,18.72,1.86,75.95
+584,2024-05-30,2024-09-12,Radio,Teenagers,Life Insurance,13832.96,18351.98,4.53,2.16,80.89
+585,2024-05-23,2024-10-14,Phone,Teenagers,Commercial Insurance,48849.57,32215.01,14.83,0.16,76.06
+586,2024-02-26,2024-05-11,Broker,Seniors,Life Insurance,18551.25,54217.33,17.4,0.21,72.02
+587,2024-02-08,2024-04-23,Direct Mail,Seniors,Commercial Insurance,18190.93,76061.53,10.66,2.72,92.13
+588,2024-04-18,2024-12-14,Radio,Teenagers,Motor Vehicle Insurance,16971.77,84470.43,13.55,0.31,70.88
+589,2024-06-29,2024-03-12,Agent,Adults,Personal Accident Insurance,7861.35,71911.86,16.39,2.69,88.92
+590,2024-02-11,2024-12-25,Email,Teenagers,Health Insurance,7334.58,93216.7,5.58,0.76,68.25
+591,2024-07-04,2024-04-12,Email,Adults,Motor Vehicle Insurance,33109.04,75180.63,6.29,2.25,69.99
+592,2024-08-10,2024-09-26,Email,Adults,Commercial Insurance,44005.67,34095.45,0.51,1.0,73.46
+593,2024-05-01,2024-05-09,Direct Mail,Seniors,Health Insurance,39944.98,30182.72,19.28,2.59,83.57
+594,2024-05-12,2024-12-03,Broker,Adults,Health Insurance,8773.16,71138.28,18.39,2.13,78.18
+595,2024-06-11,2024-05-21,Radio,Adults,Agricultural Insurance,28187.94,23322.7,15.41,1.27,89.81
+596,2024-08-02,2024-01-31,Agent,Teenagers,Home Insurance,7068.39,13807.91,2.04,0.32,68.54
+597,2024-08-08,2024-05-28,Broker,Seniors,Motor Vehicle Insurance,4174.14,55561.17,9.23,2.22,60.43
+598,2024-08-22,2024-07-18,Agent,Adults,Home Insurance,33506.52,83055.95,2.49,1.89,91.06
+599,2024-11-26,2024-09-04,Broker,Adults,Health Insurance,27687.31,14631.09,0.81,0.11,92.87
+600,2024-05-25,2024-12-14,Direct Mail,Seniors,Life Insurance,5937.14,80229.68,12.52,0.13,62.38
+601,2024-08-26,2024-07-02,Phone,Teenagers,Health Insurance,3677.08,82099.34,19.24,2.45,84.44
+602,2024-03-16,2024-02-06,Agent,Seniors,Home Insurance,49508.31,50816.03,18.11,0.85,75.13
+603,2024-01-09,2024-03-07,Broker,Seniors,Motor Vehicle Insurance,3441.02,10444.48,14.09,1.94,91.76
+604,2024-03-14,2024-02-16,Email,Adults,Commercial Insurance,23337.36,21586.04,2.38,1.42,94.98
+605,2024-09-09,2024-09-27,Online Ads,Adults,Agricultural Insurance,26221.71,72205.5,5.85,2.6,94.04
+606,2024-08-17,2024-08-16,Email,Teenagers,Agricultural Insurance,7629.45,72618.9,6.74,2.76,91.09
+607,2024-01-07,2024-05-07,TV,Adults,Agricultural Insurance,10114.97,90343.75,15.38,2.99,70.76
+608,2024-06-22,2024-02-13,Phone,Adults,Commercial Insurance,18886.64,60355.18,16.14,0.55,92.48
+609,2024-05-20,2024-12-17,Phone,Seniors,Agricultural Insurance,38560.44,16790.2,8.01,2.6,81.34
+610,2024-06-16,2024-10-02,Email,Adults,Motor Vehicle Insurance,26339.96,16534.42,8.65,0.87,62.11
+611,2024-06-18,2024-07-16,Radio,Teenagers,Commercial Insurance,32619.29,73507.57,1.37,1.81,78.28
+612,2024-10-09,2024-04-15,Direct Mail,Seniors,Agricultural Insurance,49288.38,22459.54,6.14,1.57,97.69
+613,2024-05-01,2024-02-13,Agent,Teenagers,Commercial Insurance,38864.26,36196.62,9.3,0.15,95.51
+614,2024-07-12,2024-11-26,Phone,Seniors,Home Insurance,22849.35,51285.14,2.78,2.81,64.09
+615,2024-01-05,2024-07-15,Email,Adults,Personal Accident Insurance,23429.21,7352.66,9.34,0.33,89.77
+616,2024-01-29,2024-11-07,Email,Seniors,Personal Accident Insurance,31701.06,28637.81,17.14,2.1,92.23
+617,2024-06-13,2024-04-15,Direct Mail,Seniors,Motor Vehicle Insurance,33937.53,43749.51,11.84,2.38,70.86
+618,2024-12-04,2024-05-13,Direct Mail,Adults,Travel Insurance,26034.12,31565.45,2.04,2.41,78.86
+619,2024-05-15,2024-03-06,Social Media,Adults,Life Insurance,32953.34,17955.18,4.24,0.49,88.44
+620,2024-12-30,2024-11-07,Social Media,Teenagers,Agricultural Insurance,3129.56,74161.16,9.75,1.4,77.56
+621,2024-11-16,2024-09-02,Radio,Teenagers,Life Insurance,22621.9,82249.03,7.55,2.51,64.51
+622,2024-12-07,2024-12-04,Radio,Adults,Commercial Insurance,15389.03,29460.5,7.5,0.98,88.24
+623,2024-05-24,2024-12-15,TV,Adults,Life Insurance,8200.37,78569.85,10.82,1.46,96.47
+624,2024-11-22,2024-04-29,Radio,Adults,Motor Vehicle Insurance,6778.23,41627.59,11.9,0.89,86.1
+625,2024-08-04,2024-07-17,Broker,Seniors,Motor Vehicle Insurance,30953.22,53135.15,16.04,1.44,90.95
+626,2024-10-27,2024-12-09,Direct Mail,Seniors,Health Insurance,27132.83,86320.1,7.15,2.67,74.33
+627,2024-05-11,2024-03-10,Broker,Seniors,Personal Accident Insurance,14172.04,76245.6,16.21,1.42,67.33
+628,2024-10-18,2024-02-18,Agent,Adults,Agricultural Insurance,24605.6,81486.1,7.1,1.71,85.71
+629,2024-03-10,2025-01-05,Email,Teenagers,Health Insurance,25627.15,18000.29,1.58,1.27,73.11
+630,2024-09-08,2024-02-24,Radio,Adults,Life Insurance,11360.43,11623.35,11.31,1.43,94.4
+631,2024-10-01,2025-01-02,Email,Seniors,Travel Insurance,33300.47,89873.45,11.96,0.14,64.91
+632,2024-12-29,2024-08-31,Phone,Seniors,Health Insurance,39484.13,41844.26,18.72,0.92,77.34
+633,2024-06-30,2024-11-11,TV,Adults,Health Insurance,39990.25,32348.57,14.66,1.37,75.87
+634,2024-06-15,2024-10-10,Phone,Adults,Motor Vehicle Insurance,30918.55,73846.14,18.4,1.94,97.52
+635,2024-03-31,2024-08-25,TV,Seniors,Travel Insurance,26558.65,84459.48,18.21,1.41,66.13
+636,2024-07-20,2024-06-07,Social Media,Seniors,Commercial Insurance,4928.34,86936.51,12.29,1.08,60.39
+637,2024-12-11,2024-12-24,Email,Seniors,Life Insurance,15815.9,35019.73,10.79,1.23,69.52
+638,2024-01-19,2024-06-22,TV,Adults,Health Insurance,6477.03,85960.18,11.37,0.8,92.81
+639,2024-02-08,2024-04-22,Online Ads,Seniors,Travel Insurance,48263.51,8888.72,19.58,2.78,68.37
+640,2024-05-05,2025-01-03,Broker,Seniors,Personal Accident Insurance,8483.85,9717.84,15.58,1.61,69.64
+641,2024-06-21,2024-03-25,TV,Teenagers,Agricultural Insurance,9285.22,64234.32,2.57,0.14,65.2
+642,2024-05-20,2024-03-04,TV,Adults,Travel Insurance,44699.68,10995.11,15.68,0.16,88.62
+643,2024-08-29,2024-11-08,Broker,Teenagers,Personal Accident Insurance,47308.56,35837.87,3.83,2.92,62.77
+644,2024-08-07,2024-07-01,Email,Teenagers,Life Insurance,38759.79,68911.82,9.22,0.74,73.25
+645,2024-05-05,2024-10-03,Email,Seniors,Travel Insurance,2259.44,37040.36,4.6,2.44,71.3
+646,2024-02-27,2025-01-11,Broker,Adults,Personal Accident Insurance,2064.62,22061.98,13.95,0.27,82.21
+647,2024-05-27,2024-02-26,Phone,Seniors,Travel Insurance,20148.84,31728.31,17.61,2.77,89.22
+648,2024-11-12,2024-12-20,Online Ads,Adults,Travel Insurance,8882.98,48469.66,6.16,2.64,81.32
+649,2024-12-26,2024-07-19,Agent,Teenagers,Agricultural Insurance,2882.53,50161.66,2.1,1.76,97.24
+650,2024-01-01,2024-07-08,Online Ads,Adults,Personal Accident Insurance,24275.2,79385.02,6.32,0.13,98.06
+651,2024-12-13,2025-01-16,Email,Seniors,Personal Accident Insurance,47266.97,76264.56,13.61,0.85,74.46
+652,2024-07-08,2024-07-30,Social Media,Seniors,Health Insurance,17543.34,48397.69,6.91,1.28,91.11
+653,2024-07-09,2024-06-16,Radio,Seniors,Life Insurance,33734.75,85338.4,5.92,1.43,89.55
+654,2024-11-07,2024-08-04,TV,Adults,Agricultural Insurance,33307.3,15852.53,4.1,0.96,95.72
+655,2024-04-26,2024-01-26,Broker,Teenagers,Travel Insurance,14051.84,29258.57,10.2,0.2,77.92
+656,2024-05-13,2024-05-27,Broker,Teenagers,Travel Insurance,33220.41,83657.76,5.88,1.81,81.22
+657,2024-02-27,2024-08-30,TV,Adults,Health Insurance,12192.03,40909.43,14.75,1.62,76.63
+658,2024-02-13,2024-03-08,Radio,Seniors,Life Insurance,7856.36,98212.25,1.99,0.92,94.02
+659,2024-06-21,2024-11-30,Agent,Teenagers,Motor Vehicle Insurance,35666.4,49294.06,13.45,0.21,69.19
+660,2024-06-08,2024-09-15,Radio,Seniors,Agricultural Insurance,7445.16,80233.88,5.13,2.98,69.59
+661,2024-06-21,2024-02-03,Radio,Adults,Health Insurance,49851.64,43219.17,10.04,1.5,74.9
+662,2024-11-12,2024-02-13,Radio,Seniors,Life Insurance,10805.72,45370.58,6.08,2.29,69.21
+663,2024-10-29,2024-06-11,Agent,Teenagers,Agricultural Insurance,30518.81,41373.9,14.59,1.41,82.44
+664,2024-05-28,2025-01-23,Agent,Teenagers,Travel Insurance,21745.98,73312.18,18.93,0.23,65.38
+665,2024-03-20,2024-06-11,Email,Seniors,Life Insurance,8066.55,57014.2,18.38,1.0,72.81
+666,2024-07-31,2024-02-24,TV,Adults,Life Insurance,3336.51,94658.92,11.88,1.03,96.54
+667,2024-07-21,2024-04-08,Agent,Seniors,Commercial Insurance,31891.15,28834.58,9.52,2.53,76.37
+668,2024-09-08,2024-12-27,Agent,Adults,Life Insurance,40724.36,14553.46,16.46,2.0,89.93
+669,2024-08-16,2024-10-10,Email,Seniors,Motor Vehicle Insurance,42416.75,42359.84,13.82,0.9,64.54
+670,2024-06-12,2024-08-13,Broker,Teenagers,Life Insurance,25170.25,63587.71,4.08,2.91,69.9
+671,2024-08-14,2024-04-06,Email,Adults,Motor Vehicle Insurance,39317.86,86775.9,16.51,1.03,92.29
+672,2024-05-26,2024-01-28,Phone,Adults,Travel Insurance,34296.66,37888.7,8.86,2.99,90.52
+673,2024-01-20,2024-11-14,Phone,Adults,Motor Vehicle Insurance,36764.22,67109.74,4.19,2.99,75.45
+674,2024-02-16,2024-08-13,Social Media,Teenagers,Agricultural Insurance,25644.75,38268.87,6.0,0.65,98.18
+675,2024-08-20,2024-02-02,Radio,Seniors,Travel Insurance,32403.76,63635.86,5.72,1.01,96.43
+676,2024-10-31,2024-03-01,TV,Teenagers,Travel Insurance,40665.24,89056.75,10.62,1.51,98.49
+677,2024-01-14,2024-06-21,Direct Mail,Adults,Motor Vehicle Insurance,21098.44,26978.98,5.07,2.03,77.12
+678,2024-05-22,2024-04-23,Online Ads,Seniors,Personal Accident Insurance,40686.99,43402.96,2.91,1.63,67.9
+679,2024-01-01,2024-09-15,Email,Teenagers,Health Insurance,30416.81,99360.19,2.91,2.91,85.07
+680,2024-02-23,2024-02-15,Broker,Adults,Home Insurance,9963.25,87512.92,11.87,2.2,87.39
+681,2024-09-15,2025-01-23,Online Ads,Adults,Personal Accident Insurance,3184.84,58640.79,14.83,0.71,65.02
+682,2024-05-23,2024-08-29,Broker,Teenagers,Life Insurance,19412.17,54079.62,6.77,0.4,91.46
+683,2024-01-12,2024-12-31,Online Ads,Teenagers,Commercial Insurance,28241.42,32037.04,1.18,2.1,60.72
+684,2024-11-25,2024-07-14,Email,Teenagers,Home Insurance,42311.38,54134.9,2.98,0.56,79.31
+685,2024-08-11,2024-12-15,Direct Mail,Adults,Life Insurance,8119.31,85577.24,18.34,2.38,73.24
+686,2024-09-28,2025-01-11,Online Ads,Teenagers,Personal Accident Insurance,40409.9,70091.58,10.12,1.0,89.61
+687,2024-12-23,2024-06-18,Email,Adults,Personal Accident Insurance,43424.43,32554.18,9.34,1.05,72.51
+688,2024-06-04,2024-12-09,Agent,Teenagers,Life Insurance,9233.0,24139.07,1.24,0.13,93.07
+689,2024-01-08,2024-04-05,Direct Mail,Adults,Travel Insurance,42876.53,30194.81,14.71,2.13,83.8
+690,2024-05-01,2024-09-03,Broker,Adults,Life Insurance,49589.77,21127.12,10.8,0.43,91.76
+691,2024-12-13,2024-08-19,Phone,Seniors,Commercial Insurance,36888.26,14085.87,4.44,2.34,99.57
+692,2024-06-12,2024-12-08,Radio,Teenagers,Personal Accident Insurance,39668.94,44817.94,2.65,1.53,87.17
+693,2024-03-30,2024-03-20,Phone,Teenagers,Life Insurance,49731.93,15763.46,7.98,2.37,99.4
+694,2024-05-15,2024-12-22,Direct Mail,Adults,Motor Vehicle Insurance,31063.1,21331.69,16.82,1.79,61.15
+695,2024-07-04,2024-08-23,Broker,Adults,Home Insurance,16778.55,56995.85,17.37,0.34,73.53
+696,2024-11-11,2024-02-11,Online Ads,Adults,Motor Vehicle Insurance,42201.48,20636.93,12.26,2.32,64.31
+697,2024-06-26,2024-10-13,Broker,Seniors,Commercial Insurance,31495.32,11068.58,14.69,0.3,70.49
+698,2024-01-28,2024-07-22,Online Ads,Seniors,Life Insurance,29897.38,35151.94,2.75,1.49,93.56
+699,2024-08-07,2024-12-19,Email,Adults,Agricultural Insurance,14174.51,25930.31,11.97,0.6,61.29
+700,2024-12-22,2024-09-26,Direct Mail,Teenagers,Commercial Insurance,38304.04,53953.99,13.51,2.28,80.81
+701,2024-02-10,2024-12-05,Email,Teenagers,Travel Insurance,5920.03,14724.87,4.41,2.74,82.69
+702,2024-08-15,2024-08-19,Social Media,Seniors,Motor Vehicle Insurance,46365.78,76418.22,17.66,1.71,82.45
+703,2024-07-10,2024-07-17,Online Ads,Seniors,Motor Vehicle Insurance,17639.53,91092.18,4.3,1.63,79.01
+704,2024-05-24,2024-02-02,Agent,Adults,Health Insurance,8133.18,75626.34,6.61,2.32,91.62
+705,2024-07-19,2024-01-19,Email,Teenagers,Life Insurance,23233.59,55618.57,12.6,0.11,65.34
+706,2024-07-30,2024-08-07,Social Media,Adults,Travel Insurance,4038.56,86763.44,12.95,2.76,72.42
+707,2024-08-07,2024-02-05,TV,Seniors,Agricultural Insurance,34862.06,71017.25,14.14,0.67,84.63
+708,2024-08-27,2024-05-13,Phone,Teenagers,Motor Vehicle Insurance,45329.86,6002.36,2.68,2.95,87.64
+709,2024-02-15,2024-08-09,Broker,Teenagers,Motor Vehicle Insurance,42188.62,42438.56,17.06,2.24,76.17
+710,2024-02-04,2024-11-02,Social Media,Seniors,Travel Insurance,8113.73,85840.43,10.89,2.35,95.01
+711,2024-09-09,2024-09-27,Direct Mail,Adults,Commercial Insurance,8061.01,37856.59,9.69,2.0,76.62
+712,2024-03-22,2024-07-22,Email,Adults,Commercial Insurance,41044.86,8345.44,19.63,1.47,76.11
+713,2024-09-12,2024-07-13,Direct Mail,Teenagers,Life Insurance,46364.21,75887.07,14.94,1.76,61.45
+714,2024-07-15,2024-11-01,Phone,Seniors,Personal Accident Insurance,24112.15,81193.64,2.8,0.23,82.05
+715,2024-10-29,2024-08-06,Agent,Teenagers,Health Insurance,25950.61,20256.4,15.25,1.91,88.35
+716,2024-01-10,2024-06-16,Direct Mail,Seniors,Motor Vehicle Insurance,17276.58,56047.35,2.36,1.92,64.58
+717,2024-11-07,2024-09-14,Online Ads,Adults,Personal Accident Insurance,44924.73,23235.77,1.04,2.68,72.22
+718,2024-10-12,2024-08-30,Agent,Seniors,Personal Accident Insurance,32955.34,73327.27,8.37,1.57,91.25
+719,2024-08-29,2024-01-10,Agent,Adults,Health Insurance,15836.08,30797.29,19.87,0.32,74.64
+720,2024-09-07,2024-02-05,Social Media,Seniors,Personal Accident Insurance,16341.58,35040.44,3.91,0.99,69.66
+721,2024-12-30,2024-03-02,Agent,Teenagers,Personal Accident Insurance,44777.6,85272.23,13.62,2.0,86.89
+722,2024-01-05,2024-06-06,Radio,Adults,Commercial Insurance,2654.43,50250.62,3.88,0.79,67.87
+723,2024-04-28,2024-04-10,Phone,Teenagers,Commercial Insurance,17490.88,68626.67,14.63,0.91,95.83
+724,2024-10-15,2024-03-04,Agent,Teenagers,Home Insurance,28609.12,43225.44,10.35,2.48,64.22
+725,2024-03-05,2024-02-11,Direct Mail,Adults,Agricultural Insurance,9114.44,33310.65,13.76,1.79,88.26
+726,2024-05-25,2024-09-06,TV,Adults,Life Insurance,6420.74,64420.42,4.46,1.57,79.98
+727,2024-08-11,2024-10-19,Radio,Teenagers,Personal Accident Insurance,41133.26,19711.47,15.04,1.02,94.8
+728,2024-08-26,2024-01-27,Radio,Teenagers,Home Insurance,44931.41,40434.98,19.91,2.22,65.05
+729,2024-06-25,2024-04-30,Online Ads,Teenagers,Agricultural Insurance,41533.11,24858.52,13.48,0.93,87.12
+730,2024-09-23,2024-02-14,Agent,Teenagers,Home Insurance,45141.82,71100.52,10.12,2.24,82.88
+731,2024-12-06,2024-10-07,Online Ads,Adults,Home Insurance,28549.37,94699.84,18.5,0.3,79.2
+732,2024-10-08,2024-10-27,Online Ads,Adults,Life Insurance,40988.39,99573.54,0.81,2.61,79.66
+733,2024-03-03,2024-06-16,TV,Teenagers,Life Insurance,20434.05,47776.3,14.73,1.55,88.88
+734,2024-08-04,2024-03-28,Social Media,Seniors,Travel Insurance,33980.86,28990.39,17.83,1.37,97.51
+735,2024-12-07,2024-11-12,Agent,Seniors,Health Insurance,49464.11,47068.79,1.7,1.87,63.65
+736,2024-11-10,2024-05-15,Email,Adults,Health Insurance,12834.93,85490.59,9.28,1.91,60.78
+737,2024-10-09,2024-07-17,Online Ads,Teenagers,Travel Insurance,20715.19,24570.54,4.49,0.48,92.23
+738,2024-06-25,2024-03-25,Phone,Teenagers,Travel Insurance,25042.27,95449.09,11.55,2.29,64.33
+739,2024-04-07,2024-02-12,Broker,Adults,Commercial Insurance,8624.74,37477.25,13.17,0.9,99.47
+740,2024-04-14,2024-02-15,Phone,Seniors,Agricultural Insurance,5889.85,98651.35,6.4,2.72,84.77
+741,2024-04-08,2024-07-25,TV,Seniors,Home Insurance,41826.7,84667.84,9.47,2.47,86.03
+742,2024-11-06,2024-12-26,TV,Seniors,Personal Accident Insurance,48886.13,81814.2,5.95,1.1,67.96
+743,2024-01-06,2024-09-19,Direct Mail,Adults,Travel Insurance,21426.8,35200.94,7.7,2.44,69.61
+744,2024-07-15,2024-04-07,Social Media,Seniors,Motor Vehicle Insurance,6207.19,5833.84,3.61,1.13,86.37
+745,2024-12-16,2024-02-08,Online Ads,Adults,Health Insurance,5158.96,41302.63,17.77,0.39,96.39
+746,2024-05-12,2024-11-11,Phone,Adults,Travel Insurance,44783.27,33671.89,0.7,2.89,99.3
+747,2024-12-23,2024-12-29,Broker,Teenagers,Motor Vehicle Insurance,24263.08,8552.71,17.71,1.99,67.92
+748,2024-09-15,2024-04-16,TV,Seniors,Motor Vehicle Insurance,17361.31,53009.7,11.65,1.42,65.36
+749,2024-01-23,2024-10-01,TV,Adults,Motor Vehicle Insurance,24870.14,43287.97,6.97,1.25,62.26
+750,2024-02-22,2024-06-16,Social Media,Seniors,Commercial Insurance,17278.6,65282.86,14.6,1.04,94.73
+751,2024-06-13,2024-09-21,Broker,Seniors,Commercial Insurance,25473.72,64012.7,10.4,2.95,71.79
+752,2024-07-20,2024-03-19,Broker,Teenagers,Personal Accident Insurance,43258.71,16470.93,10.23,0.49,60.07
+753,2024-03-23,2024-02-01,Social Media,Seniors,Personal Accident Insurance,30430.47,97811.73,2.65,1.01,68.95
+754,2024-05-24,2024-06-19,TV,Teenagers,Motor Vehicle Insurance,35343.38,22758.49,8.1,1.51,73.62
+755,2024-03-25,2024-07-01,Agent,Adults,Agricultural Insurance,19504.19,47301.03,5.2,1.49,99.64
+756,2024-03-18,2024-11-28,Agent,Seniors,Commercial Insurance,37448.28,51371.17,0.81,1.47,80.94
+757,2024-12-31,2024-10-09,Social Media,Adults,Home Insurance,33997.62,82240.97,7.52,0.61,68.19
+758,2024-01-01,2024-10-10,Broker,Seniors,Motor Vehicle Insurance,7738.98,14426.81,2.25,0.52,73.39
+759,2024-02-20,2024-02-10,Online Ads,Adults,Home Insurance,29486.86,45721.21,5.51,0.84,73.21
+760,2024-06-21,2024-10-25,Social Media,Seniors,Home Insurance,14323.69,64707.71,2.3,2.75,60.79
+761,2024-07-23,2024-09-29,Social Media,Seniors,Motor Vehicle Insurance,40596.59,25439.78,2.47,0.43,65.41
+762,2024-09-16,2024-07-30,Radio,Seniors,Health Insurance,22445.01,64609.45,4.38,2.3,87.81
+763,2024-10-14,2024-02-14,Phone,Seniors,Agricultural Insurance,49744.84,92748.16,20.0,2.3,64.81
+764,2024-02-03,2024-03-17,Broker,Seniors,Motor Vehicle Insurance,6440.02,99764.22,0.54,2.45,69.23
+765,2024-12-13,2024-03-19,Direct Mail,Seniors,Personal Accident Insurance,39456.7,8082.85,12.95,2.67,74.03
+766,2024-04-04,2024-06-03,Direct Mail,Seniors,Motor Vehicle Insurance,34337.68,27380.88,3.25,0.86,90.31
+767,2024-03-12,2024-04-20,Broker,Seniors,Commercial Insurance,38839.94,34479.18,18.45,0.75,83.3
+768,2024-02-08,2024-11-29,Radio,Seniors,Motor Vehicle Insurance,16761.43,42916.98,2.33,1.45,87.56
+769,2024-06-02,2024-01-29,Radio,Adults,Health Insurance,25618.62,28014.43,19.12,0.87,82.68
+770,2024-09-06,2024-03-29,TV,Teenagers,Commercial Insurance,40232.41,24331.36,12.41,2.23,87.34
+771,2024-06-10,2024-02-01,Phone,Seniors,Personal Accident Insurance,13161.98,95682.62,0.52,1.94,60.11
+772,2024-04-27,2024-07-09,Agent,Teenagers,Life Insurance,12849.59,92259.55,17.93,2.64,97.24
+773,2024-09-15,2024-03-12,Email,Seniors,Life Insurance,28450.45,9464.29,10.67,0.34,64.44
+774,2024-11-01,2024-07-30,Email,Seniors,Home Insurance,27131.05,37187.24,5.62,2.75,76.25
+775,2024-09-24,2025-01-06,Email,Adults,Agricultural Insurance,15548.6,43489.11,15.46,0.95,90.84
+776,2024-02-23,2024-07-16,Broker,Adults,Home Insurance,16307.63,27706.38,18.57,1.52,77.41
+777,2024-08-23,2024-02-02,Direct Mail,Teenagers,Health Insurance,15336.57,64742.93,9.93,1.37,97.87
+778,2024-08-09,2024-12-05,Direct Mail,Adults,Travel Insurance,39032.58,65836.17,6.65,2.3,78.7
+779,2024-09-07,2024-02-27,Agent,Adults,Personal Accident Insurance,33291.24,85797.9,15.88,1.32,95.0
+780,2024-11-08,2024-01-29,Broker,Teenagers,Agricultural Insurance,41956.02,75382.58,13.79,2.84,92.43
+781,2024-04-21,2024-06-15,Email,Adults,Personal Accident Insurance,48822.71,56544.47,17.83,2.72,99.24
+782,2024-09-11,2024-08-17,Online Ads,Seniors,Life Insurance,24759.89,67090.74,14.0,2.63,97.06
+783,2024-10-29,2024-08-16,Direct Mail,Teenagers,Home Insurance,5201.31,31028.93,5.25,0.31,95.92
+784,2024-07-25,2024-10-04,TV,Teenagers,Personal Accident Insurance,4308.43,61340.34,18.67,2.58,89.26
+785,2024-08-16,2024-09-11,Social Media,Seniors,Life Insurance,16191.92,51476.59,2.54,2.37,74.68
+786,2024-12-06,2025-01-02,Online Ads,Adults,Health Insurance,46762.14,17667.72,5.72,0.4,64.25
+787,2024-03-06,2024-08-29,Direct Mail,Teenagers,Health Insurance,27114.23,28041.71,10.64,0.41,87.55
+788,2024-03-15,2024-01-18,Radio,Teenagers,Travel Insurance,15045.75,32710.88,11.53,0.39,99.15
+789,2024-04-12,2024-06-21,Direct Mail,Seniors,Personal Accident Insurance,21160.01,92809.41,0.8,0.13,89.06
+790,2024-07-10,2024-12-11,TV,Seniors,Travel Insurance,30732.57,26886.73,15.72,1.69,97.15
+791,2024-09-08,2024-08-27,Email,Adults,Commercial Insurance,33341.58,32478.17,7.55,2.92,92.17
+792,2024-08-13,2024-05-22,Radio,Teenagers,Agricultural Insurance,9388.14,40088.64,8.43,1.37,66.52
+793,2024-10-20,2024-12-17,Broker,Adults,Personal Accident Insurance,48897.52,68055.56,16.28,1.67,69.97
+794,2024-11-01,2024-03-26,Phone,Adults,Health Insurance,28149.07,16232.65,7.9,2.91,73.67
+795,2024-04-07,2024-03-26,Email,Seniors,Home Insurance,8513.04,95624.8,1.42,0.84,66.73
+796,2024-12-03,2024-08-20,Phone,Teenagers,Life Insurance,44894.49,87229.27,3.94,2.59,83.27
+797,2024-10-12,2024-08-10,Online Ads,Teenagers,Motor Vehicle Insurance,5582.64,59835.53,19.14,1.68,99.02
+798,2024-11-30,2024-03-23,Social Media,Teenagers,Travel Insurance,45571.3,69033.6,1.87,1.75,90.46
+799,2024-12-12,2024-10-17,Radio,Seniors,Motor Vehicle Insurance,49835.15,6582.74,7.42,1.1,76.94
+800,2024-11-03,2024-10-21,Agent,Seniors,Personal Accident Insurance,35620.73,37199.75,10.31,1.73,60.18
+801,2024-09-05,2024-11-23,Radio,Seniors,Home Insurance,38981.47,80587.72,10.12,0.31,72.53
+802,2024-06-14,2024-12-06,Direct Mail,Seniors,Travel Insurance,18190.54,12360.88,0.58,2.32,81.07
+803,2024-11-30,2025-01-28,Direct Mail,Seniors,Motor Vehicle Insurance,47195.69,31819.81,10.27,0.93,72.97
+804,2024-01-30,2024-05-03,Direct Mail,Teenagers,Agricultural Insurance,27426.27,60603.2,7.98,2.67,64.44
+805,2024-09-03,2024-07-13,Online Ads,Adults,Home Insurance,37154.65,29359.24,19.46,1.17,77.71
+806,2024-04-15,2024-02-24,Email,Teenagers,Life Insurance,46357.17,93727.91,3.6,0.51,70.13
+807,2024-02-20,2024-01-29,Agent,Adults,Agricultural Insurance,48808.64,17450.57,7.41,2.12,96.37
+808,2024-03-21,2024-10-30,Agent,Seniors,Home Insurance,41993.81,80752.46,8.68,0.58,64.07
+809,2024-05-12,2024-08-17,Direct Mail,Adults,Commercial Insurance,16544.84,53255.13,8.12,2.29,61.97
+810,2024-10-11,2024-10-27,Phone,Teenagers,Travel Insurance,48394.28,76281.42,13.48,2.91,60.21
+811,2024-05-17,2024-04-26,Online Ads,Teenagers,Health Insurance,32149.74,34517.96,4.7,2.36,73.12
+812,2024-07-02,2024-10-11,Direct Mail,Adults,Life Insurance,46670.84,53876.51,4.81,0.17,86.42
+813,2024-11-25,2024-08-06,Social Media,Seniors,Personal Accident Insurance,34453.04,86399.36,14.72,1.84,89.22
+814,2024-09-29,2024-07-04,Email,Seniors,Agricultural Insurance,16747.47,49353.42,10.26,2.12,78.13
+815,2024-12-05,2024-04-08,Broker,Teenagers,Agricultural Insurance,19761.18,39173.39,8.6,2.49,87.37
+816,2024-03-09,2024-03-07,Social Media,Adults,Motor Vehicle Insurance,28422.65,55934.76,3.8,0.26,74.4
+817,2024-02-03,2024-04-12,Phone,Seniors,Travel Insurance,39920.71,73149.46,4.16,1.49,86.71
+818,2024-09-18,2024-02-26,Radio,Seniors,Personal Accident Insurance,17263.16,47138.52,0.71,1.65,61.62
+819,2024-02-22,2024-07-05,Radio,Teenagers,Health Insurance,29827.1,94193.31,2.28,0.59,75.63
+820,2024-07-23,2024-04-04,Social Media,Seniors,Home Insurance,18590.0,33019.85,11.36,1.04,91.63
+821,2024-05-05,2024-11-15,Direct Mail,Adults,Health Insurance,41156.93,50169.04,17.89,1.38,92.12
+822,2024-08-22,2024-04-10,Broker,Teenagers,Travel Insurance,24402.95,76908.13,6.1,2.52,88.65
+823,2024-02-12,2024-04-14,TV,Teenagers,Travel Insurance,5682.7,70466.5,6.89,2.8,68.17
+824,2024-08-27,2024-06-10,TV,Adults,Commercial Insurance,9970.52,87045.9,2.75,1.92,69.89
+825,2024-04-20,2024-06-26,Phone,Teenagers,Commercial Insurance,4933.02,99696.87,8.08,1.25,99.84
+826,2024-09-05,2024-08-02,Direct Mail,Seniors,Health Insurance,25966.54,45551.54,1.23,0.84,64.14
+827,2024-05-30,2024-09-08,Agent,Seniors,Home Insurance,7104.19,15559.33,18.39,2.95,67.23
+828,2024-07-01,2025-01-12,Agent,Adults,Health Insurance,7478.72,7889.51,13.63,2.95,65.2
+829,2024-12-01,2024-01-03,Email,Seniors,Travel Insurance,47170.32,74053.31,19.82,2.78,73.11
+830,2024-04-04,2024-08-13,Broker,Adults,Travel Insurance,43887.44,88031.3,17.72,2.38,68.41
+831,2024-01-08,2024-10-30,Broker,Adults,Motor Vehicle Insurance,23700.16,25967.7,9.72,1.04,79.91
+832,2024-12-25,2024-09-05,Radio,Seniors,Commercial Insurance,49318.66,20052.56,10.63,2.47,79.04
+833,2024-07-02,2024-03-29,Online Ads,Adults,Personal Accident Insurance,2008.95,10909.48,4.22,1.29,96.06
+834,2024-10-07,2024-05-21,Phone,Seniors,Personal Accident Insurance,31471.01,83156.78,9.51,1.05,61.39
+835,2024-07-13,2024-06-26,TV,Teenagers,Personal Accident Insurance,31588.55,34581.28,18.11,2.26,72.8
+836,2024-12-17,2024-04-18,Phone,Teenagers,Motor Vehicle Insurance,23957.27,43161.2,1.49,0.33,83.87
+837,2024-07-13,2024-07-18,Agent,Adults,Life Insurance,21053.5,52761.27,17.34,0.24,84.19
+838,2024-06-03,2024-06-26,Agent,Seniors,Personal Accident Insurance,23858.39,84748.06,7.15,1.4,79.21
+839,2024-04-02,2025-01-18,Social Media,Seniors,Travel Insurance,21918.1,66829.16,18.04,1.39,92.63
+840,2024-06-08,2024-04-14,Email,Teenagers,Motor Vehicle Insurance,37063.64,63431.14,18.85,2.7,62.51
+841,2024-03-01,2024-06-26,Broker,Teenagers,Health Insurance,8497.06,21688.85,13.58,0.47,92.62
+842,2024-05-01,2024-05-25,Phone,Seniors,Commercial Insurance,11486.68,53753.04,13.46,0.46,79.79
+843,2024-02-20,2024-05-26,Agent,Adults,Commercial Insurance,10664.87,72961.2,9.33,0.53,65.35
+844,2024-10-03,2024-04-17,Online Ads,Teenagers,Home Insurance,14598.59,97459.78,16.79,0.19,95.43
+845,2024-01-05,2024-11-27,Radio,Adults,Health Insurance,27212.4,24133.6,19.25,0.31,85.97
+846,2024-04-01,2025-01-18,TV,Adults,Home Insurance,7338.02,5906.62,15.61,2.01,66.54
+847,2024-06-18,2024-11-24,Email,Teenagers,Motor Vehicle Insurance,43672.13,12153.64,12.63,1.35,61.35
+848,2024-11-12,2024-05-09,Online Ads,Adults,Agricultural Insurance,16273.35,40705.98,12.33,2.31,65.64
+849,2024-01-22,2024-01-29,Email,Adults,Personal Accident Insurance,9801.82,82951.74,17.06,2.98,84.35
+850,2024-11-21,2024-09-27,Social Media,Seniors,Life Insurance,34429.82,5678.5,11.05,2.01,67.17
+851,2024-01-01,2024-03-22,Agent,Adults,Health Insurance,3828.14,48389.41,16.18,0.25,69.03
+852,2024-05-12,2025-01-01,Radio,Seniors,Health Insurance,31758.49,36276.91,10.42,0.4,61.01
+853,2024-08-20,2024-08-24,Online Ads,Teenagers,Health Insurance,35513.52,9985.76,1.72,2.65,88.92
+854,2024-01-12,2024-02-11,Email,Teenagers,Home Insurance,12315.99,47772.45,7.99,1.63,92.41
+855,2024-12-11,2024-08-14,Broker,Seniors,Motor Vehicle Insurance,4014.28,29201.13,9.17,2.49,91.87
+856,2024-02-15,2024-10-11,Social Media,Teenagers,Health Insurance,19454.98,38429.06,3.26,2.58,65.1
+857,2024-02-03,2024-12-16,Broker,Adults,Agricultural Insurance,6732.52,72033.45,2.5,2.79,96.13
+858,2024-03-18,2024-07-08,Radio,Adults,Health Insurance,7590.94,54547.34,10.94,2.85,86.89
+859,2024-08-05,2025-01-07,Online Ads,Adults,Commercial Insurance,14204.54,16841.51,2.16,1.71,95.9
+860,2024-10-27,2024-11-15,Social Media,Teenagers,Personal Accident Insurance,16182.46,96334.38,6.41,1.09,77.89
+861,2024-03-13,2024-04-06,Online Ads,Adults,Life Insurance,27438.58,65411.52,15.02,2.89,77.48
+862,2024-10-08,2024-12-10,Agent,Teenagers,Personal Accident Insurance,34562.81,77757.5,19.31,1.69,91.38
+863,2024-09-05,2024-04-24,Direct Mail,Adults,Commercial Insurance,30453.01,12525.25,14.5,0.29,63.73
+864,2024-02-16,2024-09-27,Social Media,Seniors,Commercial Insurance,9121.3,9470.55,19.86,1.96,80.83
+865,2024-04-30,2024-01-25,Broker,Teenagers,Life Insurance,10260.13,6847.56,14.12,1.8,93.46
+866,2024-08-01,2024-04-12,Radio,Teenagers,Agricultural Insurance,44180.92,22935.43,6.23,2.7,93.21
+867,2024-08-26,2024-08-11,Agent,Adults,Motor Vehicle Insurance,28800.91,44368.8,13.61,1.99,98.25
+868,2024-02-25,2024-12-06,Direct Mail,Teenagers,Commercial Insurance,43757.02,93903.48,14.19,1.11,87.93
+869,2024-12-15,2024-02-05,TV,Teenagers,Motor Vehicle Insurance,19834.23,48420.67,7.75,2.9,68.31
+870,2024-04-16,2024-02-01,Agent,Seniors,Commercial Insurance,31491.2,32574.24,0.85,2.42,60.81
+871,2024-11-14,2024-05-14,Radio,Seniors,Travel Insurance,27135.84,58383.85,14.21,1.93,79.18
+872,2024-02-17,2024-11-04,Email,Adults,Life Insurance,17317.93,15633.78,0.92,0.95,80.55
+873,2024-03-01,2024-07-15,Social Media,Seniors,Commercial Insurance,24555.94,62903.06,12.81,1.18,69.61
+874,2024-12-02,2025-01-02,Online Ads,Adults,Travel Insurance,26119.56,59001.04,3.69,2.04,64.99
+875,2024-01-26,2024-02-09,Radio,Adults,Personal Accident Insurance,11637.01,80239.34,11.53,0.31,83.45
+876,2024-10-18,2024-01-30,Social Media,Adults,Home Insurance,17120.5,98735.32,10.33,0.84,90.57
+877,2024-09-13,2024-03-29,Online Ads,Teenagers,Travel Insurance,39987.67,28832.98,0.76,2.17,99.73
+878,2024-01-08,2024-02-04,Phone,Seniors,Health Insurance,45957.84,53417.36,7.58,1.49,90.33
+879,2024-04-22,2024-02-02,Broker,Adults,Commercial Insurance,19270.12,91342.21,12.22,1.27,91.75
+880,2024-12-20,2024-11-20,TV,Seniors,Travel Insurance,16734.67,79593.04,17.05,0.54,84.66
+881,2024-09-09,2024-09-13,Agent,Adults,Motor Vehicle Insurance,11369.46,51303.6,17.83,1.38,99.44
+882,2024-06-28,2024-05-07,Radio,Seniors,Home Insurance,34567.58,94810.31,9.94,2.34,85.6
+883,2024-07-25,2024-06-05,TV,Seniors,Agricultural Insurance,17508.79,10437.49,14.7,0.87,94.41
+884,2024-10-29,2024-03-03,Email,Adults,Commercial Insurance,49411.98,93444.87,6.67,0.12,97.83
+885,2024-05-06,2024-09-11,Social Media,Teenagers,Health Insurance,17632.87,9798.2,7.17,2.04,97.19
+886,2024-02-25,2025-01-15,Social Media,Seniors,Agricultural Insurance,20918.53,56993.95,4.29,2.92,75.26
+887,2024-08-01,2024-07-20,Radio,Teenagers,Travel Insurance,30960.04,89591.89,11.46,1.86,63.15
+888,2024-01-14,2024-08-20,Direct Mail,Teenagers,Agricultural Insurance,40480.85,29958.49,6.63,0.45,66.87
+889,2024-01-28,2024-05-15,Direct Mail,Adults,Agricultural Insurance,24536.9,49863.61,2.15,1.03,62.37
+890,2024-03-18,2024-11-17,Phone,Adults,Home Insurance,22287.49,35811.24,13.86,2.62,64.22
+891,2024-08-03,2024-07-20,Broker,Adults,Personal Accident Insurance,49790.62,95453.67,14.3,0.77,67.39
+892,2024-12-30,2024-10-26,Online Ads,Seniors,Agricultural Insurance,2503.69,83246.33,7.52,1.86,73.64
+893,2024-06-02,2024-11-18,Email,Adults,Agricultural Insurance,44963.13,72355.14,2.0,1.27,81.74
+894,2024-01-14,2024-11-20,TV,Adults,Commercial Insurance,9158.76,60824.56,8.81,0.7,88.47
+895,2024-07-05,2024-04-18,Direct Mail,Seniors,Personal Accident Insurance,39724.41,82956.22,9.13,2.46,68.44
+896,2024-11-07,2024-08-03,Phone,Seniors,Home Insurance,31660.71,42265.37,13.54,2.25,86.9
+897,2024-01-07,2024-06-23,Phone,Adults,Health Insurance,18408.67,47517.43,6.65,2.02,88.17
+898,2024-01-03,2024-02-22,Radio,Adults,Travel Insurance,43946.0,74350.16,13.81,0.79,82.34
+899,2024-04-20,2025-01-11,Email,Adults,Home Insurance,2619.55,38986.7,17.49,0.38,96.14
+900,2024-08-25,2024-11-13,Online Ads,Adults,Home Insurance,12881.15,11070.59,5.13,1.77,64.44
+901,2024-12-28,2025-01-06,Broker,Teenagers,Life Insurance,29210.85,12061.79,19.59,1.71,67.08
+902,2024-08-26,2024-03-16,Agent,Teenagers,Home Insurance,18874.03,15959.47,8.03,0.65,77.15
+903,2024-09-30,2024-06-05,Radio,Adults,Personal Accident Insurance,31298.12,87619.73,5.71,0.26,65.07
+904,2024-10-20,2024-08-12,Online Ads,Teenagers,Life Insurance,3157.29,49861.51,8.72,0.33,82.65
+905,2024-08-14,2024-09-13,Agent,Seniors,Travel Insurance,7590.03,72723.83,2.34,2.98,75.94
+906,2024-01-15,2024-02-10,Agent,Teenagers,Agricultural Insurance,8100.62,42326.39,2.95,2.37,71.38
+907,2024-07-10,2024-04-27,Email,Teenagers,Commercial Insurance,11085.62,29577.54,8.58,2.77,66.8
+908,2024-04-28,2024-08-17,Email,Adults,Commercial Insurance,24047.91,37983.26,15.37,0.67,73.41
+909,2024-01-28,2025-01-15,TV,Teenagers,Travel Insurance,38102.18,80447.32,18.06,2.89,84.32
+910,2024-07-20,2024-12-08,Phone,Teenagers,Travel Insurance,45465.86,64395.53,13.46,0.51,83.03
+911,2024-02-08,2024-11-12,Online Ads,Teenagers,Personal Accident Insurance,42097.88,94075.78,2.55,1.58,66.54
+912,2024-09-29,2024-12-28,Radio,Teenagers,Motor Vehicle Insurance,11450.62,69571.95,13.6,2.51,65.0
+913,2024-08-18,2024-08-04,Social Media,Seniors,Agricultural Insurance,23175.23,59167.26,12.89,1.11,61.07
+914,2024-03-26,2024-06-14,Radio,Adults,Travel Insurance,11571.76,62968.62,16.21,1.33,60.5
+915,2024-05-05,2024-01-26,TV,Adults,Home Insurance,14694.65,94525.29,16.59,0.47,95.19
+916,2024-10-26,2024-10-25,Broker,Seniors,Personal Accident Insurance,26170.26,79879.09,17.43,0.46,61.8
+917,2024-01-25,2024-01-10,Phone,Teenagers,Commercial Insurance,5269.23,7283.92,8.58,1.9,89.25
+918,2024-05-24,2024-08-25,Social Media,Seniors,Health Insurance,12472.37,55743.27,14.11,2.06,94.88
+919,2024-01-13,2025-01-18,Direct Mail,Teenagers,Personal Accident Insurance,46898.15,70392.15,5.73,2.35,63.92
+920,2024-07-30,2024-01-28,Broker,Seniors,Commercial Insurance,24373.58,76126.36,19.99,1.71,77.45
+921,2024-01-25,2024-06-08,Email,Adults,Life Insurance,23378.55,25248.5,3.92,1.97,98.49
+922,2024-03-08,2024-03-19,Agent,Adults,Personal Accident Insurance,2699.22,87381.85,0.7,0.14,93.37
+923,2024-03-07,2024-07-03,Direct Mail,Adults,Commercial Insurance,13875.19,95805.1,3.4,0.57,79.59
+924,2024-08-20,2024-04-13,Radio,Teenagers,Motor Vehicle Insurance,43582.04,27487.95,15.63,2.96,90.5
+925,2024-04-18,2024-04-15,Radio,Teenagers,Personal Accident Insurance,9902.16,88848.47,9.21,0.32,93.34
+926,2024-05-25,2024-09-08,Email,Seniors,Personal Accident Insurance,21926.0,14212.98,9.23,2.07,73.92
+927,2024-04-20,2024-05-08,TV,Seniors,Agricultural Insurance,2687.88,10292.15,19.12,0.61,95.69
+928,2024-08-15,2025-01-03,Online Ads,Adults,Travel Insurance,24960.1,17276.26,18.43,2.18,78.82
+929,2024-04-20,2024-08-19,Direct Mail,Teenagers,Agricultural Insurance,3009.01,10485.4,6.57,2.15,81.11
+930,2024-02-03,2024-04-03,Direct Mail,Seniors,Personal Accident Insurance,41341.26,85276.16,4.58,0.78,99.99
+931,2024-04-20,2024-12-25,Broker,Teenagers,Travel Insurance,41592.98,10609.76,17.05,0.88,93.73
+932,2024-09-20,2024-09-21,Phone,Teenagers,Commercial Insurance,39811.63,30808.1,18.17,2.0,74.47
+933,2024-08-23,2024-11-04,Broker,Adults,Health Insurance,15601.48,14856.85,11.06,1.23,60.41
+934,2024-03-23,2024-09-21,Online Ads,Adults,Health Insurance,42187.39,33065.09,12.77,0.66,85.05
+935,2024-02-11,2024-07-27,Radio,Teenagers,Personal Accident Insurance,28063.91,13603.15,5.51,2.22,88.16
+936,2024-04-10,2024-09-10,Radio,Teenagers,Motor Vehicle Insurance,19942.79,68460.31,16.12,0.55,86.03
+937,2024-01-06,2024-05-17,Radio,Teenagers,Life Insurance,32015.84,17666.05,12.83,2.58,98.71
+938,2024-06-28,2024-10-17,Radio,Teenagers,Commercial Insurance,2592.37,85925.36,10.32,1.59,94.52
+939,2024-10-08,2024-05-29,Online Ads,Adults,Travel Insurance,8862.12,82633.15,1.67,0.41,77.95
+940,2024-11-15,2024-09-15,Email,Seniors,Personal Accident Insurance,37630.09,6297.86,18.36,2.11,62.51
+941,2024-08-13,2024-01-23,Phone,Adults,Commercial Insurance,13719.76,90094.0,12.5,1.61,79.04
+942,2024-11-10,2024-02-22,Online Ads,Seniors,Personal Accident Insurance,30704.44,7749.71,4.26,0.96,87.57
+943,2024-12-30,2024-02-18,Phone,Teenagers,Motor Vehicle Insurance,20484.92,27766.35,12.32,1.33,84.31
+944,2024-08-16,2024-09-07,Online Ads,Seniors,Home Insurance,43030.68,8076.97,13.71,0.97,81.53
+945,2024-10-15,2025-01-09,Radio,Adults,Home Insurance,47715.93,36905.13,10.75,0.86,78.75
+946,2024-05-29,2024-10-09,Email,Adults,Motor Vehicle Insurance,44411.11,53817.32,14.5,0.57,71.75
+947,2024-10-03,2024-01-24,Direct Mail,Teenagers,Travel Insurance,14989.76,80681.26,11.84,1.15,71.09
+948,2024-07-16,2024-05-08,Broker,Adults,Agricultural Insurance,11319.82,37108.25,18.98,0.83,80.01
+949,2024-03-10,2024-09-19,Agent,Teenagers,Motor Vehicle Insurance,24772.87,72021.55,1.55,2.08,66.42
+950,2024-04-21,2024-04-20,Email,Adults,Personal Accident Insurance,2352.04,22812.92,2.57,2.08,73.63
+951,2024-01-04,2024-10-26,Direct Mail,Adults,Travel Insurance,3238.85,76306.85,3.89,1.56,72.96
+952,2024-12-15,2024-01-21,TV,Teenagers,Health Insurance,28557.95,27419.68,13.96,2.36,83.49
+953,2024-11-26,2024-12-05,Online Ads,Seniors,Motor Vehicle Insurance,26981.57,18636.75,13.09,2.54,62.67
+954,2024-11-13,2024-01-07,TV,Adults,Travel Insurance,49739.94,22613.84,17.9,1.78,93.19
+955,2024-12-15,2024-11-17,Direct Mail,Seniors,Motor Vehicle Insurance,11688.41,22296.0,14.79,1.89,82.5
+956,2024-04-04,2024-11-24,Email,Adults,Motor Vehicle Insurance,14388.99,53721.97,10.41,0.92,86.83
+957,2024-05-31,2024-02-12,Online Ads,Adults,Agricultural Insurance,7449.95,85255.77,19.84,2.7,88.12
+958,2024-11-06,2024-11-23,Agent,Adults,Agricultural Insurance,46042.06,12562.48,5.69,0.17,71.66
+959,2024-05-16,2024-12-03,Radio,Adults,Personal Accident Insurance,39334.94,72160.85,16.75,1.11,78.81
+960,2024-09-03,2024-04-25,Online Ads,Seniors,Travel Insurance,41472.28,67162.91,8.82,2.19,98.25
+961,2024-08-30,2024-02-01,Online Ads,Seniors,Travel Insurance,45332.66,87889.4,13.15,0.33,90.67
+962,2024-01-31,2024-08-28,Email,Adults,Life Insurance,27195.2,28194.02,14.68,0.63,98.78
+963,2024-02-09,2024-04-16,Email,Adults,Motor Vehicle Insurance,23657.27,47760.44,12.86,1.81,89.85
+964,2024-08-16,2024-05-31,Direct Mail,Seniors,Home Insurance,17858.79,92953.6,3.24,1.72,67.02
+965,2024-02-05,2024-09-15,Social Media,Teenagers,Motor Vehicle Insurance,30282.3,67699.38,9.14,2.24,62.58
+966,2024-08-10,2024-12-06,Online Ads,Teenagers,Motor Vehicle Insurance,23805.36,41933.0,11.45,2.46,83.11
+967,2024-01-06,2024-06-20,Broker,Seniors,Travel Insurance,23675.15,17484.18,17.06,0.47,74.31
+968,2024-11-17,2024-12-19,Online Ads,Adults,Motor Vehicle Insurance,46972.54,29936.08,9.15,0.15,71.02
+969,2024-08-07,2024-02-08,Direct Mail,Adults,Commercial Insurance,49233.51,60215.47,18.42,2.1,92.29
+970,2024-03-15,2024-04-01,Phone,Teenagers,Motor Vehicle Insurance,40231.25,73225.96,9.09,0.97,74.68
+971,2024-01-04,2024-07-02,TV,Teenagers,Commercial Insurance,38324.39,16820.08,11.2,1.92,72.68
+972,2024-11-30,2024-09-10,Radio,Seniors,Agricultural Insurance,34666.79,61961.74,16.03,0.54,94.0
+973,2024-05-13,2024-10-12,Social Media,Teenagers,Home Insurance,9971.59,57283.37,11.87,1.46,93.85
+974,2024-04-27,2024-07-11,Agent,Seniors,Personal Accident Insurance,4837.08,53825.77,19.22,1.56,74.25
+975,2024-04-03,2024-11-13,Agent,Teenagers,Travel Insurance,35154.86,70561.7,13.38,1.8,93.3
+976,2024-03-02,2024-11-19,Agent,Teenagers,Motor Vehicle Insurance,36981.74,84557.71,10.69,1.59,94.03
+977,2024-07-12,2024-10-22,Email,Teenagers,Commercial Insurance,4254.7,35684.02,0.96,1.54,76.96
+978,2024-11-30,2024-02-02,Agent,Adults,Commercial Insurance,46546.48,89456.16,8.57,1.06,62.66
+979,2024-07-21,2024-07-29,Radio,Adults,Agricultural Insurance,6374.75,20260.19,6.34,0.31,60.06
+980,2024-01-26,2024-05-03,TV,Adults,Commercial Insurance,15723.23,21437.27,15.09,0.36,80.93
+981,2024-06-21,2024-10-18,Agent,Teenagers,Personal Accident Insurance,34274.71,30343.35,4.56,1.36,73.76
+982,2024-10-26,2024-03-31,Online Ads,Seniors,Health Insurance,10153.88,16355.43,4.5,1.13,99.89
+983,2024-05-12,2024-04-25,Online Ads,Seniors,Life Insurance,4659.96,26880.33,4.2,1.6,90.9
+984,2024-11-21,2024-10-09,Email,Seniors,Personal Accident Insurance,17895.03,15109.12,2.95,0.98,90.45
+985,2024-04-27,2024-12-01,Radio,Seniors,Home Insurance,38766.64,83066.48,6.56,2.09,98.21
+986,2024-11-19,2025-01-13,TV,Adults,Personal Accident Insurance,21856.58,18202.05,17.78,2.61,95.51
+987,2024-10-01,2025-01-10,Social Media,Adults,Agricultural Insurance,33342.7,75993.27,15.61,0.97,72.73
+988,2024-07-30,2024-09-14,Direct Mail,Teenagers,Agricultural Insurance,29821.72,9551.82,14.84,0.66,66.64
+989,2024-08-12,2024-06-03,TV,Teenagers,Personal Accident Insurance,3066.49,95109.43,16.05,0.44,89.84
+990,2024-01-20,2024-10-31,Direct Mail,Seniors,Motor Vehicle Insurance,49449.92,72560.21,5.75,1.89,75.13
+991,2024-04-22,2024-10-10,Phone,Adults,Health Insurance,3988.55,5645.67,17.81,1.39,78.93
+992,2024-05-19,2024-06-20,Direct Mail,Seniors,Motor Vehicle Insurance,48454.53,77566.37,3.18,0.65,85.22
+993,2024-02-16,2024-01-10,Broker,Teenagers,Motor Vehicle Insurance,28393.48,53837.78,7.06,1.99,96.31
+994,2024-01-01,2024-11-20,Online Ads,Teenagers,Personal Accident Insurance,48231.63,79039.69,11.94,0.53,76.76
+995,2024-03-30,2024-03-08,Radio,Seniors,Travel Insurance,7508.17,54637.2,2.51,1.71,91.33
+996,2024-05-21,2024-11-07,Email,Teenagers,Travel Insurance,25539.61,65897.36,14.74,1.63,70.73
+997,2024-11-15,2024-05-22,Broker,Seniors,Travel Insurance,10136.2,79701.51,8.05,2.23,87.92
+998,2024-02-07,2024-04-29,Direct Mail,Adults,Health Insurance,4446.79,43485.27,15.8,0.26,60.06
+999,2024-10-19,2024-06-30,Agent,Seniors,Motor Vehicle Insurance,31641.4,5257.27,10.11,2.67,94.86
+1000,2024-05-18,2024-07-30,Radio,Adults,Life Insurance,11973.6,85744.92,4.03,2.14,61.22

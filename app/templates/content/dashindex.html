@@ -1,0 +1,72 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+<h1>Welcome to the Analytical Dashboard</h1>
+
+<!-- Cards Section -->
+<div class="card">
+    <div class="card-body">
+        <div class="card-header">With Cutting-Edge Decision Support</div>
+        <p style="font-size: 18px; line-height: 1.8; color: #2E3D49; text-align: justify; font-family: 'Georgia', serif; margin-bottom: 20px; padding: 10px; border-left: 4px solid #007BFF; background-color: #F7F9FC;">
+            In the fast-paced world of insurance, staying ahead requires more than just intuition— it demands precise, data-driven decisions. Introducing our revolutionary Decision Support System (DSS) designed exclusively for the insurance industry. This dynamic tool is your key to transforming complex data into actionable insights, driving strategic decisions, and enhancing operational efficiency.</p>
+        <p style="font-size: 18px; line-height: 1.8; color: #2E3D49; text-align: justify; font-family: 'Georgia', serif; margin-bottom: 20px; padding: 10px; border-left: 4px solid #007BFF; background-color: #F7F9FC;">
+            Our DSS harnesses the power of advanced algorithms and real-time analytics to offer unparalleled support in areas like policy recommendations, premium prediction, risk management, and fraud detection. With features tailored to meet the unique challenges of the insurance sector, it empowers you to forecast sales with accuracy, optimize policy renewals, and deliver personalized customer experiences.</p>
+        <p style="font-size: 18px; line-height: 1.8; color: #2E3D49; text-align: justify; font-family: 'Georgia', serif; margin-bottom: 20px; padding: 10px; border-left: 4px solid #007BFF; background-color: #F7F9FC;">
+            Dive into the future of insurance with a tool that turns uncertainty into opportunity, and data into decisive action. Welcome to a new era of intelligent insurance management.</p>
+
+        <br><br>
+
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header">Recent Activities</div>
+    <div class="card-body">
+        <p>Here are some recent activities or updates.</p>
+        <a href="#" class="button">View Details</a>
+    </div>
+</div>
+
+<!-- Table Section -->
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Details</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>LAPTOP-53216D</td>
+                <td>Coimbatore, 3 hours ago</td>
+                <td>Inactive</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>LAPTOP-53216D</td>
+                <td>Coimbatore, 1 day ago</td>
+                <td>Inactive</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LAPTOP-53216D</td>
+                <td>Coimbatore, 1 day ago</td>
+                <td>Inactive</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>LAPTOP-53216D</td>
+                <td>Coimbatore, 3 day ago</td>
+                <td>Inactive</td>
+            </tr>
+            
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

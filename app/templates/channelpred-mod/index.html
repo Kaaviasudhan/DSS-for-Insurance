@@ -1,0 +1,38 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+<h1>Marketing Campaign Prediction</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="target_audience">Target Audience</label>
+        <select id="target_audience" name="target_audience" required>
+            {% for audience in ['Adults', 'Seniors', 'Teenagers'] %}
+            <option value="{{ audience }}">{{ audience }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="policy_type">Policy Type</label>
+        <select id="policy_type" name="policy_type" required>
+            {% for policy in ['Life Insurance', 'Health Insurance', 'Motor Vehicle Insurance', 'Home Insurance', 'Travel Insurance', 'Commercial Insurance', 'Agricultural Insurance', 'Personal Accident Insurance'] %}
+            <option value="{{ policy }}">{{ policy }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="budget">Budget</label>
+        <input type="number" id="budget" name="budget" step="0.01" required>
+    </div>
+    <button type="submit" class="btn">Predict</button>
+</form>
+{% if plot_url %}
+<div class="chart">
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Prediction Chart">
+</div>
+<div class="note">
+    <p>{{ interpretation | safe }}</p>
+</div>
+{% endif %}
+
+{% endblock %}

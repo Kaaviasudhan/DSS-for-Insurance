@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytical Dashboard</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/logo-tk.png') }}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/usersstyle.css') }}">
+</head>
+<body>
+    <div class="container">
+        
+        <nav class="sidebar" id="sidebar">
+            <button class="toggle-btn" onclick="toggleSidebar()">☰</button>    
+            <ul>
+                <li><a href="{{ url_for('main.introduction') }}"><img src="{{ url_for('static', filename='img/logo-tk.png') }}" alt="Icon 2"> <span class="text">Introduction</span></a></li>
+                
+                {% if role == 'admin' %}
+                    <li><a href="{{ url_for('main.admin_dashboard') }}"><img src="{{ url_for('static', filename='img/logo-tk.png') }}" alt="Icon 2"> <span class="text">Admin Dashboard</span></a></li>
+                {% endif %}
+
+                <li><a href="{{ url_for('eda.edat') }}"><img src="{{ url_for('static', filename='img/icons/home.png') }}" alt="Icon 1"> <span class="text">Dashboard EDA</span></a></li>
+                <li><a href="{{ url_for('risk.riskpredt') }}"><img src="{{ url_for('static', filename='img/icons/risk.png') }}" alt="Icon 3"> <span class="text">Risk Assessment</span></a></li>
+                <li><a href="{{ url_for('fraud.fraudpredt') }}"><img src="{{ url_for('static', filename='img/icons/fraud.png') }}" alt="Icon 3"> <span class="text">Fraud Assessment</span></a></li>
+                <li><a href="{{ url_for('policyrenewal.renewal') }}"><img src="{{ url_for('static', filename='img/icons/renewal-96.png') }}" alt="Icon 2"> <span class="text">Policy Renewal pred.</span></a></li>
+                <li><a href="{{ url_for('policy_recommend.policypredt') }}"><img src="{{ url_for('static', filename='img/icons/recommend.png') }}" alt="Icon 3"> <span class="text">Policy Recommendation</span></a></li>
+                <li><a href="{{ url_for('saleforecast.salesforecast') }}"><img src="{{ url_for('static', filename='img/icons/sales.png') }}" alt="Icon 3"> <span class="text">Sales Forecast</span></a></li>
+                <li><a href="{{ url_for('channel.channelpredgwt') }}"><img src="{{ url_for('static', filename='img/icons/Advertising.png') }}" alt="Icon 2"> <span class="text">Channel Prediction</span></a></li>
+                <li><a href="{{ url_for('health.healthpredcost') }}"><img src="{{ url_for('static', filename='img/icons/health-insurance.png') }}" alt="Icon 3"> <span class="text">Healthcare Insurance pred.</span></a></li>
+                <li><a href="#"><img src="{{ url_for('static', filename='img/icons/gpt.png') }}" alt="Icon 2"> <span class="text">Insurance GPT</span></a></li>
+                <li><a href="{{ url_for('main.logout') }}"><img src="{{ url_for('static', filename='img/logo-tk.png') }}" alt="Icon 2"> <span class="text"> Logout </span></a></li>
+                <li><a href="#"><img src="{{ url_for('static', filename='img/user.png') }}" alt="Icon 2"> <span class="text"> Your role is: {{ role }}</span></a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            {% block content %}
+            <!-- Default content goes here -->
+            {% endblock %}
+        </main>
+    </div>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('collapsed');
+        }
+    </script>   
+</body>
+</html>

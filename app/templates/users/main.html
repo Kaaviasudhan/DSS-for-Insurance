@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    header {
+        background: #333;
+        color: #fff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #fff 3px solid;
+        text-align: center;
+    }
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+    .content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        margin-top: 20px;
+    }
+    .content h2 {
+        color: #333;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Unlocking the Future of Insurance</h1>
+</header>
+<div class="container">
+    <div class="content">
+        <h2>With Cutting-Edge Decision Support</h2>
+        <p>In the fast-paced world of insurance, staying ahead requires more than just intuition— it demands precise, data-driven decisions. Introducing our revolutionary Decision Support System (DSS) designed exclusively for the insurance industry. This dynamic tool is your key to transforming complex data into actionable insights, driving strategic decisions, and enhancing operational efficiency.</p>
+        <p>Our DSS harnesses the power of advanced algorithms and real-time analytics to offer unparalleled support in areas like policy recommendations, premium prediction, risk management, and fraud detection. With features tailored to meet the unique challenges of the insurance sector, it empowers you to forecast sales with accuracy, optimize policy renewals, and deliver personalized customer experiences.</p>
+        <p>Dive into the future of insurance with a tool that turns uncertainty into opportunity, and data into decisive action. Welcome to a new era of intelligent insurance management.</p>
+    </div>
+</div>
+</body>
+{% endblock %}

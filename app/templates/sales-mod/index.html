@@ -1,0 +1,34 @@
+{% extends "users/dashboard.html" %}
+
+{% block content %}
+<h1>Insurance Sales Forecast</h1>
+<div class="container">
+    <div class="content">
+
+            
+            <form method="post">
+                <div class="form-group">
+                    <label for="policy_type">Policy Type:</label>
+                    <select id="policy_type" name="policy_type">
+                        <option value="Health Insurance">Health Insurance</option>
+                        <option value="Life Insurance">Life Insurance</option>
+                        <option value="Motor Vehicle Insurance">Motor Vehicle Insurance</option>
+                        <option value="Home Insurance">Home Insurance</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="duration_years">Duration (Years):</label>
+                    <input type="number" id="duration_years" name="duration_years" min="1" max="10" value="3">
+                </div>
+                <button type="submit">Predict</button>
+            </form>
+            {% if result %}
+            <div class="result">
+                <h4>{{ result }}</h4>
+            </div>
+            {% endif %}
+
+    </div>
+</div>
+
+{% endblock %}
