@@ -83,6 +83,12 @@ Once the server is running, open your browser and go to `http://localhost:5001`.
 ## Screenshots
 All Screenshots and images are added in the documents and presentation ppts.
 
+## Project Video
+
+[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://github.com/Kaaviasudhan/DSS-for-Insurance-Sector/blob/main/Documents/LLM_Recording.mp4)
+
+Click the image above to watch the demo video or [download it here](https://github.com/Kaaviasudhan/DSS-for-Insurance-Sector/blob/main/Documents/LLM_Recording.mp4).
+
 ## Contributing
 1. Fork the project.
 2. Create your feature branch (`git checkout -b feature/YourFeature`).
