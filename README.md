@@ -89,6 +89,9 @@ All Screenshots and images are added in the documents and presentation ppts.
 
 Click the image above to watch the demo video or [download it here](https://github.com/Kaaviasudhan/DSS-for-Insurance-Sector/blob/main/Documents/LLM_Recording.mp4).
 
+https://github.com/user-attachments/assets/7302d60f-1a74-417f-821c-7f5440db8f21
+
+
 ## Contributing
 1. Fork the project.
 2. Create your feature branch (`git checkout -b feature/YourFeature`).
